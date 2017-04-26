@@ -1,0 +1,14 @@
+[main]
+host = https://www.transifex.com
+
+[edx-platform.help-tokens]
+file_filter = help_tokens/conf/locale/<lang>/LC_MESSAGES/django.po
+source_file = help_tokens/conf/locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[edx-platform.help-tokens-js]
+file_filter = help_tokens/conf/locale/<lang>/LC_MESSAGES/djangojs.po
+source_file = help_tokens/conf/locale/en/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO

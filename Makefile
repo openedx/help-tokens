@@ -1,4 +1,4 @@
-.PHONY: clean coverage help quality requirements test test-all upgrade validate
+.PHONY: clean coverage help quality requirements test test-all upgrade validate selfcheck
 
 .DEFAULT_GOAL := help
 
@@ -60,3 +60,6 @@ test-all: ## run tests on every supported Python/Django combination
 	tox
 
 validate: quality test ## run tests and quality checks
+
+selfcheck: ## check that the Makefile is well-formed
+	@echo "The Makefile is well-formed."

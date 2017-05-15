@@ -11,10 +11,11 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
-Unreleased
-~~~~~~~~~~
+[1.0.1] - 2017-05-15
+~~~~~~~~~~~~~~~~~~~~
 
-*
+* First version on PyPI.
+
 
 [1.0.0] - 2017-05-03
 ~~~~~~~~~~~~~~~~~~~~

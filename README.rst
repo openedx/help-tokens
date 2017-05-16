@@ -1,5 +1,6 @@
+###########
 help-tokens
-=============================
+###########
 
 Django app for linking to help pages with short tokens.
 
@@ -8,7 +9,7 @@ Django app for linking to help pages with short tokens.
 
 
 Overview
---------
+********
 
 There are various factors that affect what help page an application should link
 to:
@@ -25,13 +26,13 @@ actual URL to use.
 
 
 Documentation
--------------
+*************
 
 Help-tokens provides a context processor, and a redirection URL.  Configuration
 is in a number of settings.
 
 Settings
-........
+========
 
 Help-tokens reads these Django settings to create URLs:
 
@@ -52,7 +53,7 @@ Help-tokens reads these Django settings to create URLs:
   mapped through the [locales] section of the ini file.
 
 INI file format
-...............
+===============
 
 The .ini file pointed to by HELP_TOKENS_INI_FILE contains the definitions of
 the help tokens themselves.
@@ -79,7 +80,7 @@ HELP_TOKENS_LANGUAGE_CODE to determine the language portion of the URL::
 
 
 Context processor
-.................
+=================
 
 The context processor is `"help_tokens.context_processor"`.  It adds a function
 `get_online_help_info`.  Call it with a help token, and it will return a dict
@@ -92,7 +93,7 @@ a previous implementation of this context processor.
 
 
 Redirection view
-................
+================
 
 The `help_tokens.urls` URLs define a view that redirects to a help URL. You can
 include it in your app::
@@ -105,13 +106,13 @@ Then visiting `help_token/foobar` will redirect to the URL defined by the
 
 
 License
--------
+*******
 
 The code in this repository is licensed under the AGPL 3.0 unless otherwise
 noted.  Please see ``LICENSE.txt`` for details.
 
 How To Contribute
------------------
+*****************
 
 Contributions are very welcome.
 
@@ -127,12 +128,12 @@ Issue report template should be automatically applied if you are sending it from
 can find it at `ISSUE_TEMPLATE.md <https://github.com/edx/help-tokens/blob/master/.github/ISSUE_TEMPLATE.md>`_
 
 Reporting Security Issues
--------------------------
+*************************
 
 Please do not report security issues in public. Please email security@edx.org.
 
 Getting Help
-------------
+************
 
 Have a question about this repository, or about Open edX in general?  Please
 refer to this `list of resources`_ if you need any assistance.

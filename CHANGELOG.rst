@@ -1,5 +1,5 @@
 Change Log
-----------
+**********
 
 ..
    All enhancements and patches to help_tokens will be documented
@@ -12,15 +12,15 @@ Change Log
 .. There should always be an "Unreleased" section for changes pending release.
 
 [1.0.1] - 2017-05-15
-~~~~~~~~~~~~~~~~~~~~
+====================
 
 * First version on PyPI.
 
 
 [1.0.0] - 2017-05-03
-~~~~~~~~~~~~~~~~~~~~
+====================
 
 Added
-_____
+-----
 
 * First release.

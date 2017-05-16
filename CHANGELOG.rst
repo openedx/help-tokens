@@ -11,6 +11,12 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[1.0.2] - 2017-05-16
+====================
+
+* Fixed the README.
+
+
 [1.0.1] - 2017-05-15
 ====================
 
@@ -19,8 +25,5 @@ Change Log
 
 [1.0.0] - 2017-05-03
 ====================
-
-Added
------
 
 * First release.

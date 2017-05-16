@@ -160,3 +160,4 @@ refer to this `list of resources`_ if you need any assistance.
 .. |license-badge| image:: https://img.shields.io/github/license/edx/help-tokens.svg
     :target: https://github.com/edx/help-tokens/blob/master/LICENSE.txt
     :alt: License
+

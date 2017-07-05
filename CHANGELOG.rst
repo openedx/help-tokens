@@ -6,10 +6,17 @@ Change Log
    in this file.  It adheres to the structure of http://keepachangelog.com/ ,
    but in reStructuredText instead of Markdown (for ease of incorporation into
    Sphinx documentation and the PyPI description).
-   
+
    This project adheres to Semantic Versioning (http://semver.org/).
 
 .. There should always be an "Unreleased" section for changes pending release.
+
+[1.0.3] - 2017-07-17
+====================
+
+* Updated tests to support Django 1.11
+* Updated dependency versions
+
 
 [1.0.2] - 2017-05-16
 ====================

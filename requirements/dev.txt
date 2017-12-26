@@ -18,7 +18,7 @@ diff-cover==0.9.11
 distlib==0.2.5            # via caniusepython3
 django==1.11.2            # via edx-i18n-tools
 docutils==0.13.1          # via readme-renderer
-edx-i18n-tools==0.3.9
+edx-i18n-tools==0.4.2
 edx-lint==0.5.4
 enum34==1.1.6             # via astroid
 first==2.0.1              # via pip-tools

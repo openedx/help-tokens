@@ -7,9 +7,9 @@ from __future__ import absolute_import, unicode_literals
 
 import logging
 
-from django.conf import settings
-
 from six.moves import configparser
+
+from django.conf import settings
 
 log = logging.getLogger(__name__)
 

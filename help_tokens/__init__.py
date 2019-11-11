@@ -6,6 +6,6 @@ from __future__ import absolute_import, unicode_literals
 
 from .context_processor import context_processor
 
-__version__ = '1.0.4'
+__version__ = '1.0.5'
 
 default_app_config = 'help_tokens.apps.HelpTokensConfig'  # pylint: disable=invalid-name

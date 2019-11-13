@@ -3,6 +3,7 @@
 # pylint: disable=C0111,W6005,W6100
 from __future__ import absolute_import, print_function
 
+import io
 import os
 import re
 import sys
@@ -35,7 +36,7 @@ def load_requirements(*requirements_paths):
                 line.split('#')[0].strip() for line in reqs
                 if is_requirement(line.strip())
             )
-    return list(requirements) + ["Django>=1.8,<2"]
+    return list(requirements) + ['Django>=1.11,<2.0;python_version<"3"', 'Django>=1.11;python_version>"3"']
 
 
 def is_requirement(line):
@@ -54,8 +55,8 @@ if sys.argv[-1] == 'tag':
     os.system("git push --tags")
     sys.exit()
 
-README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
-CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst')).read()
+README = io.open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read()
+CHANGELOG = io.open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst'), encoding='utf-8').read()
 
 setup(
     name='help-tokens',
@@ -76,10 +77,10 @@ setup(
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
-        'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.9',
-        'Framework :: Django :: 1.10',
         'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.0',
+        'Framework :: Django :: 2.1',
+        'Framework :: Django :: 2.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
         'Natural Language :: English',

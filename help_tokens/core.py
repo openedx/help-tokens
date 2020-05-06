@@ -14,7 +14,7 @@ from django.conf import settings
 log = logging.getLogger(__name__)
 
 
-class HelpUrlExpert(object):
+class HelpUrlExpert:
     """A thing that is good at getting help URLs from tokens."""
 
     def __init__(self, ini_file_name):

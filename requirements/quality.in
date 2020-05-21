@@ -2,9 +2,8 @@
 
 -c constraints.txt
 
-caniusepython3            # Additional Python 3 compatibility pylint checks
 edx-lint                  # edX pylint rules and plugins
 isort                     # to standardize order of imports
 pycodestyle               # PEP 8 compliance validation
 pydocstyle<2.0            # PEP 257 compliance validation: 2.0 doesn't know Google style, and tries to correct my grammar... :(
-readme_renderer           # Validates README.rst for usage on PyPI  
+readme_renderer           # Validates README.rst for usage on PyPI

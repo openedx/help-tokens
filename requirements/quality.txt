@@ -4,6 +4,7 @@
 #
 #    make upgrade
 #
+argparse==1.4.0           # via -r requirements/quality.in
 astroid==2.3.3            # via pylint, pylint-celery
 bleach==3.1.5             # via readme-renderer
 click-log==0.3.2          # via edx-lint

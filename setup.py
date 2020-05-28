@@ -36,7 +36,7 @@ def load_requirements(*requirements_paths):
                 line.split('#')[0].strip() for line in reqs
                 if is_requirement(line.strip())
             )
-    return list(requirements) + ['Django>=1.11,<2.0;python_version<"3"', 'Django>=1.11;python_version>"3"']
+    return list(requirements)
 
 
 def is_requirement(line):

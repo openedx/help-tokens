@@ -10,7 +10,3 @@
 
 # Stay on an LTS release
 django<2.3
-
-# tox-battery>0.5.2 throws exception when requirements.txt is not found.
-# Can be removed when https://github.com/signalpillar/tox-battery/pull/26 gets merged.
-tox-battery==0.5.2

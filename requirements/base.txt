@@ -4,6 +4,7 @@
 #
 #    pip-compile --output-file requirements/base.txt requirements/base.in
 #
-django==1.11
+django==2.2.13            # via -c constraints.txt, -r base.in
 pytz==2017.2              # via django
-six==1.10.0
+six==1.10.0               # via -r base.in
+sqlparse==0.3.1           # via django

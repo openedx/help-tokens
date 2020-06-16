@@ -3,8 +3,6 @@
 The context processor for injecting information into Django templates for help_tokens.
 """
 
-from __future__ import absolute_import, unicode_literals
-
 from . import core
 
 
@@ -15,7 +13,7 @@ def _get_online_help_info(token=None):
     }
 
 
-def context_processor(request):     # pylint: disable=unused-argument
+def context_processor(request):  # pylint: disable=unused-argument
     """
     The help-tokens context processor.
 

@@ -3,4 +3,3 @@
 -c constraints.txt
 
 Django                    # Web application framework
-six                       # Python 3 compatibility layer

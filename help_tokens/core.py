@@ -3,9 +3,8 @@
 The core logic for help-tokens.
 """
 
+import configparser
 import logging
-
-from six.moves import configparser
 
 from django.conf import settings
 

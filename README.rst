@@ -145,8 +145,8 @@ refer to this `list of resources`_ if you need any assistance.
     :target: https://pypi.python.org/pypi/help-tokens/
     :alt: PyPI
 
-.. |travis-badge| image:: https://travis-ci.org/edx/help-tokens.svg?branch=master
-    :target: https://travis-ci.org/edx/help-tokens
+.. |travis-badge| image:: https://travis-ci.com/edx/help-tokens.svg?branch=master
+    :target: https://travis-ci.com/edx/help-tokens
     :alt: Travis
 
 .. |codecov-badge| image:: http://codecov.io/github/edx/help-tokens/coverage.svg?branch=master

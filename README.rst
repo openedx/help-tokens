@@ -4,7 +4,7 @@ help-tokens
 
 Django app for linking to help pages with short tokens.
 
-|pypi-badge| |travis-badge| |codecov-badge| |pyversions-badge|
+|pypi-badge| |ci-badge| |codecov-badge| |pyversions-badge|
 |license-badge|
 
 
@@ -145,9 +145,9 @@ refer to this `list of resources`_ if you need any assistance.
     :target: https://pypi.python.org/pypi/help-tokens/
     :alt: PyPI
 
-.. |travis-badge| image:: https://travis-ci.org/edx/help-tokens.svg?branch=master
-    :target: https://travis-ci.org/edx/help-tokens
-    :alt: Travis
+.. |ci-badge| image:: https://github.com/edx/help-tokens/workflows/Python%20CI/badge.svg?branch=master
+    :target: https://github.com/edx/help-tokens/actions?query=workflow%3A%22Python+CI%22
+    :alt: CI
 
 .. |codecov-badge| image:: http://codecov.io/github/edx/help-tokens/coverage.svg?branch=master
     :target: http://codecov.io/github/edx/help-tokens?branch=master

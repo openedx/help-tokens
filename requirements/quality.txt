@@ -5,25 +5,25 @@
 #    make upgrade
 #
 astroid==2.3.3            # via pylint, pylint-celery
-bleach==3.1.5             # via readme-renderer
+bleach==3.2.1             # via readme-renderer
 click-log==0.3.2          # via edx-lint
 click==7.1.2              # via click-log, edx-lint
 docutils==0.16            # via readme-renderer
-edx-lint==1.4.1           # via -r requirements/quality.in
+edx-lint==1.5.2           # via -r requirements/quality.in
 isort==4.3.21             # via -r requirements/quality.in, pylint
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via pylint
-packaging==20.4           # via bleach
+packaging==20.7           # via bleach
 pycodestyle==2.6.0        # via -r requirements/quality.in
 pydocstyle==1.1.1         # via -r requirements/quality.in
-pygments==2.6.1           # via readme-renderer
+pygments==2.7.2           # via readme-renderer
 pylint-celery==0.3        # via edx-lint
 pylint-django==2.0.11     # via edx-lint
 pylint-plugin-utils==0.6  # via pylint-celery, pylint-django
-pylint==2.4.2             # via edx-lint, pylint-celery, pylint-django, pylint-plugin-utils
+pylint==2.4.4             # via edx-lint, pylint-celery, pylint-django, pylint-plugin-utils
 pyparsing==2.4.7          # via packaging
-readme-renderer==26.0     # via -r requirements/quality.in
-six==1.15.0               # via astroid, bleach, edx-lint, packaging, readme-renderer
+readme-renderer==28.0     # via -r requirements/quality.in
+six==1.15.0               # via astroid, bleach, edx-lint, readme-renderer
 typed-ast==1.4.1          # via astroid
 webencodings==0.5.1       # via bleach
 wrapt==1.11.2             # via astroid

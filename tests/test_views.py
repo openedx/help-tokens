@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Tests for the help-tokens urls and views.
 """
 
-from __future__ import absolute_import, unicode_literals
 
 # pylint: disable=unused-argument
 

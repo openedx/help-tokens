@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Fixtures for the help_tokens tests.
 """
 
-from __future__ import absolute_import, unicode_literals
 
 import pytest
 

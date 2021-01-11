@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """URL views for help-tokens."""
 
 from django.http import HttpResponseRedirect

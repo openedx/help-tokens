@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # pylint: disable=C0111,W6005,W6100
 
 import io
@@ -54,8 +53,8 @@ if sys.argv[-1] == 'tag':
     os.system("git push --tags")
     sys.exit()
 
-README = io.open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read()
-CHANGELOG = io.open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst'), encoding='utf-8').read()
+README = open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read()
+CHANGELOG = open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.rst'), encoding='utf-8').read()
 
 setup(
     name='help-tokens',
@@ -81,7 +80,6 @@ setup(
         'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.8',
     ],
 )

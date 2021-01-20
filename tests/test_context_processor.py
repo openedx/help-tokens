@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Tests for the `help-tokens.context_processor` module.
 """
 
-from __future__ import absolute_import, unicode_literals
 
 from help_tokens import context_processor
 

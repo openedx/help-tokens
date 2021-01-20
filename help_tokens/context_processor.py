@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 The context processor for injecting information into Django templates for help_tokens.
 """

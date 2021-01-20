@@ -11,6 +11,12 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+
+[2.0.0] - 2020-01-19
+====================
+
+* Removed support of python3.5
+
 [1.1.0] - 2020-05-05
 ====================
 

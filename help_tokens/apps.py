@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 help_tokens Django application initialization.
 """

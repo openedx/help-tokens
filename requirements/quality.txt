@@ -4,26 +4,92 @@
 #
 #    make upgrade
 #
-astroid==2.4.2            # via pylint, pylint-celery
-bleach==3.2.1             # via readme-renderer
-click-log==0.3.2          # via edx-lint
-click==7.1.2              # via click-log, edx-lint
-docutils==0.16            # via readme-renderer
-edx-lint==1.6             # via -r requirements/quality.in
-isort==5.7.0              # via -r requirements/quality.in, pylint
-lazy-object-proxy==1.4.3  # via astroid
-mccabe==0.6.1             # via pylint
-packaging==20.8           # via bleach
-pycodestyle==2.6.0        # via -r requirements/quality.in
-pydocstyle==1.1.1         # via -r requirements/quality.in
-pygments==2.7.4           # via readme-renderer
-pylint-celery==0.3        # via edx-lint
-pylint-django==2.3.0      # via edx-lint
-pylint-plugin-utils==0.6  # via pylint-celery, pylint-django
-pylint==2.6.0             # via edx-lint, pylint-celery, pylint-django, pylint-plugin-utils
-pyparsing==2.4.7          # via packaging
-readme-renderer==28.0     # via -r requirements/quality.in
-six==1.15.0               # via astroid, bleach, edx-lint, readme-renderer
-toml==0.10.2              # via pylint
-webencodings==0.5.1       # via bleach
-wrapt==1.12.1             # via astroid
+astroid==2.5.6
+    # via
+    #   pylint
+    #   pylint-celery
+bleach==3.3.0
+    # via readme-renderer
+click-log==0.3.2
+    # via edx-lint
+click==7.1.2
+    # via
+    #   click-log
+    #   code-annotations
+    #   edx-lint
+code-annotations==1.1.1
+    # via edx-lint
+django==2.2.20
+    # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   code-annotations
+    #   edx-lint
+docutils==0.16
+    # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   readme-renderer
+edx-lint==5.0.0
+    # via -r requirements/quality.in
+isort==5.8.0
+    # via
+    #   -r requirements/quality.in
+    #   pylint
+jinja2==3.0.0
+    # via code-annotations
+lazy-object-proxy==1.6.0
+    # via astroid
+markupsafe==2.0.0
+    # via jinja2
+mccabe==0.6.1
+    # via pylint
+packaging==20.9
+    # via bleach
+pbr==5.6.0
+    # via stevedore
+pycodestyle==2.7.0
+    # via -r requirements/quality.in
+pydocstyle==1.1.1
+    # via -r requirements/quality.in
+pygments==2.9.0
+    # via readme-renderer
+pylint-celery==0.3
+    # via edx-lint
+pylint-django==2.4.4
+    # via edx-lint
+pylint-plugin-utils==0.6
+    # via
+    #   pylint-celery
+    #   pylint-django
+pylint==2.8.2
+    # via
+    #   edx-lint
+    #   pylint-celery
+    #   pylint-django
+    #   pylint-plugin-utils
+pyparsing==2.4.7
+    # via packaging
+python-slugify==5.0.2
+    # via code-annotations
+pytz==2021.1
+    # via django
+pyyaml==5.4.1
+    # via code-annotations
+readme-renderer==29.0
+    # via -r requirements/quality.in
+six==1.16.0
+    # via
+    #   bleach
+    #   edx-lint
+    #   readme-renderer
+sqlparse==0.4.1
+    # via django
+stevedore==3.3.0
+    # via code-annotations
+text-unidecode==1.3
+    # via python-slugify
+toml==0.10.2
+    # via pylint
+webencodings==0.5.1
+    # via bleach
+wrapt==1.12.1
+    # via astroid

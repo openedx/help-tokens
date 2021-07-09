@@ -15,7 +15,7 @@ Change Log
 [2.1.0] - 2020-07-07
 ====================
 
-* Added support for django3.2
+* Added support for django3.0, 3.1 and 3.2
 
 [2.0.0] - 2020-01-19
 ====================

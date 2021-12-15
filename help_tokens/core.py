@@ -60,7 +60,7 @@ class HelpUrlExpert:
     def url_for_token(self, token):
         """Find the full URL for a help token."""
         book_url = self.get_config_value("pages", token)
-        book, _, url_tail = book_url.partition(':')
+        book, _, url_tail = book_url.partition(':')  # pylint: disable=no-member
         book_base = settings.HELP_TOKENS_BOOKS[book]
 
         url = book_base

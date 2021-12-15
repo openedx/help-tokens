@@ -12,7 +12,7 @@ def _get_online_help_info(token=None):
     }
 
 
-def context_processor(request):  # pylint: disable=unused-argument
+def context_processor(request):
     """
     The help-tokens context processor.
 

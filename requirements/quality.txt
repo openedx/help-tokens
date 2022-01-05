@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.9.0
+astroid==2.9.2
     # via
     #   pylint
     #   pylint-celery
@@ -45,7 +45,7 @@ pycodestyle==2.8.0
     # via -r requirements/quality.in
 pydocstyle==1.1.1
     # via -r requirements/quality.in
-pygments==2.10.0
+pygments==2.11.1
     # via readme-renderer
 pylint==2.12.2
     # via
@@ -55,7 +55,7 @@ pylint==2.12.2
     #   pylint-plugin-utils
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.4.4
+pylint-django==2.5.0
     # via edx-lint
 pylint-plugin-utils==0.7
     # via

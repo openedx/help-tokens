@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.9.2
+astroid==2.9.3
     # via
     #   pylint
     #   pylint-celery
@@ -45,7 +45,7 @@ pycodestyle==2.8.0
     # via -r requirements/quality.in
 pydocstyle==1.1.1
     # via -r requirements/quality.in
-pygments==2.11.1
+pygments==2.11.2
     # via readme-renderer
 pylint==2.12.2
     # via

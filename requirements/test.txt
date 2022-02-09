@@ -25,7 +25,7 @@ py==1.11.0
     #   pytest-catchlog
 pyparsing==3.0.7
     # via packaging
-pytest==6.2.5
+pytest==7.0.0
     # via
     #   pytest-catchlog
     #   pytest-cov
@@ -40,7 +40,7 @@ pytz==2021.3
     # via django
 sqlparse==0.4.2
     # via django
-toml==0.10.2
-    # via pytest
-tomli==2.0.0
-    # via coverage
+tomli==2.0.1
+    # via
+    #   coverage
+    #   pytest

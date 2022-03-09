@@ -67,7 +67,7 @@ python-slugify==6.1.1
     # via code-annotations
 pyyaml==6.0
     # via code-annotations
-readme-renderer==32.0
+readme-renderer==33.0
     # via -r requirements/quality.in
 six==1.16.0
     # via

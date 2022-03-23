@@ -135,7 +135,7 @@ pyparsing==3.0.7
     # via packaging
 python-slugify==6.1.1
     # via code-annotations
-pytz==2021.3
+pytz==2022.1
     # via django
 pyyaml==6.0
     # via
@@ -187,11 +187,11 @@ typing-extensions==4.1.1
     # via
     #   astroid
     #   pylint
-urllib3==1.26.8
+urllib3==1.26.9
     # via
     #   requests
     #   twine
-virtualenv==20.13.3
+virtualenv==20.13.4
     # via tox
 webencodings==0.5.1
     # via bleach

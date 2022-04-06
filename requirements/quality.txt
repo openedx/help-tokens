@@ -10,7 +10,7 @@ astroid==2.11.2
     #   pylint-celery
 bleach==4.1.0
     # via readme-renderer
-click==8.1.0
+click==8.1.2
     # via
     #   click-log
     #   code-annotations
@@ -49,7 +49,7 @@ pydocstyle==1.1.1
     # via -r requirements/quality.in
 pygments==2.11.2
     # via readme-renderer
-pylint==2.13.3
+pylint==2.13.4
     # via
     #   edx-lint
     #   pylint-celery

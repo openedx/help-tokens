@@ -8,7 +8,7 @@ astroid==2.11.2
     # via
     #   pylint
     #   pylint-celery
-bleach==4.1.0
+bleach==5.0.0
     # via readme-renderer
 click==8.1.2
     # via
@@ -37,8 +37,6 @@ markupsafe==2.1.1
     # via jinja2
 mccabe==0.7.0
     # via pylint
-packaging==21.3
-    # via bleach
 pbr==5.8.1
     # via stevedore
 platformdirs==2.5.1
@@ -49,7 +47,7 @@ pydocstyle==1.1.1
     # via -r requirements/quality.in
 pygments==2.11.2
     # via readme-renderer
-pylint==2.13.4
+pylint==2.13.5
     # via
     #   edx-lint
     #   pylint-celery
@@ -63,8 +61,6 @@ pylint-plugin-utils==0.7
     # via
     #   pylint-celery
     #   pylint-django
-pyparsing==3.0.7
-    # via packaging
 python-slugify==6.1.1
     # via code-annotations
 pyyaml==6.0

@@ -124,7 +124,7 @@ pygments==2.12.0
     #   diff-cover
     #   readme-renderer
     #   rich
-pylint==2.13.9
+pylint==2.14.1
     # via
     #   edx-lint
     #   pylint-celery
@@ -181,13 +181,15 @@ tomli==2.0.1
     #   build
     #   pep517
     #   pylint
+tomlkit==0.11.0
+    # via pylint
 tox==3.25.0
     # via
     #   -r requirements/dev.in
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/dev.in
-twine==4.0.0
+twine==4.0.1
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in

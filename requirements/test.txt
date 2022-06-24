@@ -11,7 +11,7 @@ attrs==21.4.0
 coverage[toml]==6.4.1
     # via pytest-cov
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
 iniconfig==1.1.1
     # via pytest

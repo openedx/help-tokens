@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.11.6
+astroid==2.11.7
     # via
     #   pylint
     #   pylint-celery
@@ -111,7 +111,7 @@ requests-toolbelt==0.9.1
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==12.4.4
+rich==12.5.1
     # via twine
 secretstorage==3.3.2
     # via keyring
@@ -119,7 +119,7 @@ six==1.16.0
     # via
     #   bleach
     #   edx-lint
-stevedore==3.5.0
+stevedore==4.0.0
     # via code-annotations
 text-unidecode==1.3
     # via python-slugify
@@ -128,7 +128,7 @@ tomli==2.0.1
     #   build
     #   pep517
     #   pylint
-tomlkit==0.11.0
+tomlkit==0.11.1
     # via pylint
 twine==4.0.1
     # via -r requirements/quality.in
@@ -137,7 +137,7 @@ typing-extensions==4.3.0
     #   astroid
     #   pylint
     #   rich
-urllib3==1.26.9
+urllib3==1.26.10
     # via
     #   requests
     #   twine
@@ -145,7 +145,7 @@ webencodings==0.5.1
     # via bleach
 wrapt==1.14.1
     # via astroid
-zipp==3.8.0
+zipp==3.8.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:

@@ -53,7 +53,7 @@ jeepney==0.8.0
     #   secretstorage
 jinja2==3.1.2
     # via code-annotations
-keyring==23.7.0
+keyring==23.8.2
     # via twine
 lazy-object-proxy==1.7.1
     # via astroid
@@ -65,13 +65,13 @@ packaging==21.3
     # via build
 pbr==5.9.0
     # via stevedore
-pep517==0.12.0
+pep517==0.13.0
     # via build
 pkginfo==1.8.3
     # via twine
 platformdirs==2.5.2
     # via pylint
-pycodestyle==2.8.0
+pycodestyle==2.9.1
     # via -r requirements/quality.in
 pycparser==2.21
     # via cffi
@@ -101,7 +101,7 @@ python-slugify==6.1.2
     # via code-annotations
 pyyaml==6.0
     # via code-annotations
-readme-renderer==35.0
+readme-renderer==36.0
     # via twine
 requests==2.28.1
     # via
@@ -128,7 +128,7 @@ tomli==2.0.1
     #   build
     #   pep517
     #   pylint
-tomlkit==0.11.1
+tomlkit==0.11.3
     # via pylint
 twine==4.0.1
     # via -r requirements/quality.in

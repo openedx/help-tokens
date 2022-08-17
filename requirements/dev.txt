@@ -54,7 +54,7 @@ edx-lint==5.2.4
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.7.1
+filelock==3.8.0
     # via
     #   tox
     #   virtualenv
@@ -90,7 +90,7 @@ packaging==21.3
     #   tox
 path==16.4.0
     # via edx-i18n-tools
-pbr==5.9.0
+pbr==5.10.0
     # via stevedore
 pep517==0.13.0
     # via build
@@ -114,7 +114,7 @@ pycparser==2.21
     # via cffi
 pydocstyle==1.1.1
     # via -r requirements/quality.in
-pygments==2.12.0
+pygments==2.13.0
     # via
     #   diff-cover
     #   readme-renderer
@@ -137,7 +137,7 @@ pyparsing==3.0.9
     # via packaging
 python-slugify==6.1.2
     # via code-annotations
-pytz==2022.1
+pytz==2022.2.1
     # via django
 pyyaml==6.0
     # via
@@ -155,7 +155,7 @@ rfc3986==2.0.0
     # via twine
 rich==12.5.1
     # via twine
-secretstorage==3.3.2
+secretstorage==3.3.3
     # via keyring
 six==1.16.0
     # via
@@ -175,7 +175,7 @@ tomli==2.0.1
     #   build
     #   pep517
     #   pylint
-tomlkit==0.11.3
+tomlkit==0.11.4
     # via pylint
 tox==3.25.1
     # via

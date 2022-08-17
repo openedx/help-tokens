@@ -63,7 +63,7 @@ mccabe==0.7.0
     # via pylint
 packaging==21.3
     # via build
-pbr==5.9.0
+pbr==5.10.0
     # via stevedore
 pep517==0.13.0
     # via build
@@ -77,7 +77,7 @@ pycparser==2.21
     # via cffi
 pydocstyle==1.1.1
     # via -r requirements/quality.in
-pygments==2.12.0
+pygments==2.13.0
     # via
     #   readme-renderer
     #   rich
@@ -113,7 +113,7 @@ rfc3986==2.0.0
     # via twine
 rich==12.5.1
     # via twine
-secretstorage==3.3.2
+secretstorage==3.3.3
     # via keyring
 six==1.16.0
     # via
@@ -128,7 +128,7 @@ tomli==2.0.1
     #   build
     #   pep517
     #   pylint
-tomlkit==0.11.3
+tomlkit==0.11.4
     # via pylint
 twine==4.0.1
     # via -r requirements/quality.in

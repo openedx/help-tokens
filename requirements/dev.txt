@@ -14,7 +14,7 @@ bleach==5.0.1
     # via readme-renderer
 build==0.8.0
     # via -r requirements/quality.in
-certifi==2022.9.14
+certifi==2022.9.24
     # via requests
 cffi==1.15.1
     # via cryptography
@@ -68,7 +68,7 @@ isort==5.10.1
     # via
     #   -r requirements/quality.in
     #   pylint
-jaraco-classes==3.2.2
+jaraco-classes==3.2.3
     # via keyring
 jeepney==0.8.0
     # via
@@ -92,7 +92,7 @@ packaging==21.3
     # via
     #   build
     #   tox
-path==16.4.0
+path==16.5.0
     # via edx-i18n-tools
 pbr==5.10.0
     # via stevedore
@@ -147,7 +147,7 @@ pyyaml==6.0
     # via
     #   code-annotations
     #   edx-i18n-tools
-readme-renderer==37.1
+readme-renderer==37.2
     # via twine
 requests==2.28.1
     # via
@@ -166,7 +166,7 @@ six==1.16.0
     #   bleach
     #   edx-lint
     #   tox
-sqlparse==0.4.2
+sqlparse==0.4.3
     # via django
 stevedore==4.0.0
     # via code-annotations
@@ -178,7 +178,7 @@ tomli==2.0.1
     #   pep517
     #   pylint
     #   tox
-tomlkit==0.11.4
+tomlkit==0.11.5
     # via pylint
 tox==3.26.0
     # via

@@ -13,7 +13,7 @@ coverage[toml]==6.5.0
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
-exceptiongroup==1.0.1
+exceptiongroup==1.0.4
     # via pytest
 iniconfig==1.1.1
     # via pytest

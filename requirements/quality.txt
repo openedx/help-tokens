@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.12.13
+astroid==2.13.2
     # via
     #   pylint
     #   pylint-celery
@@ -59,7 +59,7 @@ jinja2==3.1.2
     # via code-annotations
 keyring==23.13.1
     # via twine
-lazy-object-proxy==1.8.0
+lazy-object-proxy==1.9.0
     # via astroid
 markupsafe==2.1.1
     # via jinja2
@@ -67,13 +67,13 @@ mccabe==0.7.0
     # via pylint
 more-itertools==9.0.0
     # via jaraco-classes
-packaging==22.0
+packaging==23.0
     # via build
 pbr==5.11.0
     # via stevedore
 pep517==0.13.0
     # via build
-pkginfo==1.9.3
+pkginfo==1.9.6
     # via twine
 platformdirs==2.6.2
     # via pylint
@@ -87,7 +87,7 @@ pygments==2.14.0
     # via
     #   readme-renderer
     #   rich
-pylint==2.15.9
+pylint==2.15.10
     # via
     #   edx-lint
     #   pylint-celery
@@ -115,7 +115,7 @@ requests-toolbelt==0.10.1
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.0.0
+rich==13.0.1
     # via twine
 secretstorage==3.3.3
     # via keyring

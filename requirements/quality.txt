@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.13.3
+astroid==2.13.5
     # via
     #   pylint
     #   pylint-celery
@@ -43,7 +43,7 @@ importlib-metadata==6.0.0
     #   twine
 importlib-resources==5.10.2
     # via keyring
-isort==5.11.4
+isort==5.12.0
     # via
     #   -r requirements/quality.in
     #   pylint
@@ -103,7 +103,7 @@ pylint-plugin-utils==0.7
     #   pylint-django
 pyproject-hooks==1.0.0
     # via build
-python-slugify==7.0.0
+python-slugify==8.0.0
     # via code-annotations
 pyyaml==6.0
     # via code-annotations
@@ -117,7 +117,7 @@ requests-toolbelt==0.10.1
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.2.0
+rich==13.3.1
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -151,7 +151,7 @@ webencodings==0.5.1
     # via bleach
 wrapt==1.14.1
     # via astroid
-zipp==3.11.0
+zipp==3.12.0
     # via
     #   importlib-metadata
     #   importlib-resources

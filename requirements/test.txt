@@ -13,7 +13,7 @@ coverage[toml]==7.2.1
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
-exceptiongroup==1.1.0
+exceptiongroup==1.1.1
     # via pytest
 iniconfig==2.0.0
     # via pytest
@@ -23,7 +23,7 @@ pluggy==1.0.0
     # via pytest
 py==1.11.0
     # via pytest-catchlog
-pytest==7.2.1
+pytest==7.2.2
     # via
     #   pytest-catchlog
     #   pytest-cov

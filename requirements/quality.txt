@@ -12,7 +12,7 @@ bleach==6.0.0
     # via readme-renderer
 build==0.10.0
     # via -r requirements/quality.in
-certifi==2022.12.7
+certifi==2023.5.7
     # via requests
 cffi==1.15.1
     # via cryptography
@@ -31,7 +31,7 @@ cryptography==40.0.2
     # via secretstorage
 dill==0.3.6
     # via pylint
-docutils==0.19
+docutils==0.20
     # via readme-renderer
 edx-lint==5.3.4
     # via -r requirements/quality.in
@@ -87,7 +87,7 @@ pygments==2.15.1
     # via
     #   readme-renderer
     #   rich
-pylint==2.17.3
+pylint==2.17.4
     # via
     #   edx-lint
     #   pylint-celery
@@ -109,7 +109,7 @@ pyyaml==6.0
     # via code-annotations
 readme-renderer==37.3
     # via twine
-requests==2.29.0
+requests==2.30.0
     # via
     #   requests-toolbelt
     #   twine
@@ -143,7 +143,7 @@ typing-extensions==4.5.0
     #   astroid
     #   pylint
     #   rich
-urllib3==1.26.15
+urllib3==2.0.2
     # via
     #   requests
     #   twine

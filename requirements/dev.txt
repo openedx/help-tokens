@@ -39,7 +39,7 @@ dill==0.3.6
     # via pylint
 distlib==0.3.6
     # via virtualenv
-django==3.2.19
+django==3.2.20
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
@@ -193,7 +193,7 @@ twine==4.0.2
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-typing-extensions==4.6.3
+typing-extensions==4.7.1
     # via
     #   asgiref
     #   astroid

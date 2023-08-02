@@ -11,7 +11,12 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
-[2.2.0] - 2022-01-20
+[2.3.0] - 2023-08-02
+====================
+
+* Added Django40 support for Django 4.2
+
+[2.2.0] - 2022-01-20s
 ====================
 
 * Dropped support for django2.2, 3.0, 3.1 and 3.2

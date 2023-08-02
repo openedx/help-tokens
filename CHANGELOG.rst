@@ -14,7 +14,7 @@ Change Log
 [2.3.0] - 2023-08-02
 ====================
 
-* Added Django40 support for Django 4.2
+* Added support for Django 4.2
 
 [2.2.0] - 2022-01-20
 ====================

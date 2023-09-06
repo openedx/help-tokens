@@ -12,7 +12,7 @@ astroid==2.15.6
     #   pylint-celery
 bleach==6.0.0
     # via readme-renderer
-build==0.10.0
+build==1.0.0
     # via -r requirements/quality.in
 certifi==2023.7.22
     # via requests
@@ -39,7 +39,7 @@ dill==0.3.7
     # via pylint
 distlib==0.3.7
     # via virtualenv
-django==3.2.20
+django==3.2.21
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
@@ -60,6 +60,7 @@ idna==3.4
     # via requests
 importlib-metadata==6.8.0
     # via
+    #   build
     #   keyring
     #   twine
 importlib-resources==6.0.1
@@ -143,7 +144,7 @@ pyproject-hooks==1.0.0
     # via build
 python-slugify==8.0.1
     # via code-annotations
-pytz==2023.3
+pytz==2023.3.post1
     # via django
 pyyaml==6.0.1
     # via
@@ -204,7 +205,7 @@ urllib3==2.0.4
     # via
     #   requests
     #   twine
-virtualenv==20.24.3
+virtualenv==20.24.4
     # via tox
 webencodings==0.5.1
     # via bleach

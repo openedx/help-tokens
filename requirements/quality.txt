@@ -25,7 +25,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==1.5.0
     # via edx-lint
-cryptography==41.0.3
+cryptography==41.0.4
     # via secretstorage
 dill==0.3.7
     # via pylint
@@ -118,7 +118,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.5.2
+rich==13.5.3
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -137,7 +137,7 @@ tomlkit==0.12.1
     # via pylint
 twine==4.0.2
     # via -r requirements/quality.in
-typing-extensions==4.7.1
+typing-extensions==4.8.0
     # via
     #   astroid
     #   pylint
@@ -148,7 +148,7 @@ urllib3==2.0.4
     #   twine
 wrapt==1.15.0
     # via astroid
-zipp==3.16.2
+zipp==3.17.0
     # via
     #   importlib-metadata
     #   importlib-resources

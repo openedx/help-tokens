@@ -54,7 +54,7 @@ jeepney==0.8.0
     #   secretstorage
 jinja2==3.1.2
     # via code-annotations
-keyring==24.2.0
+keyring==24.3.0
     # via twine
 markdown-it-py==3.0.0
     # via rich
@@ -75,7 +75,9 @@ pbr==6.0.0
 pkginfo==1.9.6
     # via twine
 platformdirs==3.11.0
-    # via pylint
+    # via
+    #   -c requirements/common_constraints.txt
+    #   pylint
 pycodestyle==2.11.1
     # via -r requirements/quality.in
 pycparser==2.21
@@ -131,7 +133,7 @@ tomli==2.0.1
     #   build
     #   pylint
     #   pyproject-hooks
-tomlkit==0.12.2
+tomlkit==0.12.3
     # via pylint
 twine==4.0.2
     # via -r requirements/quality.in
@@ -140,7 +142,7 @@ typing-extensions==4.8.0
     #   astroid
     #   pylint
     #   rich
-urllib3==2.0.7
+urllib3==2.1.0
     # via
     #   requests
     #   twine

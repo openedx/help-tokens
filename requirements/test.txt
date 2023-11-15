@@ -32,7 +32,7 @@ pytest-catchlog==1.2.2
     # via -r requirements/test.in
 pytest-cov==4.1.0
     # via -r requirements/test.in
-pytest-django==4.6.0
+pytest-django==4.7.0
     # via -r requirements/test.in
 pytz==2023.3.post1
     # via django

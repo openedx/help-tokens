@@ -10,7 +10,7 @@ astroid==3.0.1
     #   pylint-celery
 build==1.0.3
     # via -r requirements/quality.in
-certifi==2023.7.22
+certifi==2023.11.17
     # via requests
 cffi==1.16.0
     # via cryptography
@@ -84,7 +84,7 @@ pycparser==2.21
     # via cffi
 pydocstyle==1.1.1
     # via -r requirements/quality.in
-pygments==2.16.1
+pygments==2.17.2
     # via
     #   readme-renderer
     #   rich
@@ -118,7 +118,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.6.0
+rich==13.7.0
     # via twine
 secretstorage==3.3.3
     # via keyring

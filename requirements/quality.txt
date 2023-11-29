@@ -9,7 +9,7 @@ astroid==3.0.1
     #   pylint
     #   pylint-celery
 build==1.0.3
-    # via -r requirements/quality.in
+    # via -r quality.in
 certifi==2023.11.17
     # via requests
 cffi==1.16.0
@@ -25,14 +25,14 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==1.5.0
     # via edx-lint
-cryptography==41.0.5
+cryptography==41.0.6
     # via secretstorage
 dill==0.3.7
     # via pylint
 docutils==0.20.1
     # via readme-renderer
 edx-lint==5.3.6
-    # via -r requirements/quality.in
+    # via -r quality.in
 idna==3.4
     # via requests
 importlib-metadata==6.8.0
@@ -44,7 +44,7 @@ importlib-resources==6.1.1
     # via keyring
 isort==5.12.0
     # via
-    #   -r requirements/quality.in
+    #   -r quality.in
     #   pylint
 jaraco-classes==3.3.0
     # via keyring
@@ -76,14 +76,14 @@ pkginfo==1.9.6
     # via twine
 platformdirs==3.11.0
     # via
-    #   -c requirements/common_constraints.txt
+    #   -c common_constraints.txt
     #   pylint
 pycodestyle==2.11.1
-    # via -r requirements/quality.in
+    # via -r quality.in
 pycparser==2.21
     # via cffi
 pydocstyle==1.1.1
-    # via -r requirements/quality.in
+    # via -r quality.in
 pygments==2.17.2
     # via
     #   readme-renderer
@@ -136,7 +136,7 @@ tomli==2.0.1
 tomlkit==0.12.3
     # via pylint
 twine==4.0.2
-    # via -r requirements/quality.in
+    # via -r quality.in
 typing-extensions==4.8.0
     # via
     #   astroid

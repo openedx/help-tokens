@@ -35,7 +35,7 @@ code-annotations==1.5.0
     # via edx-lint
 colorama==0.4.6
     # via tox
-cryptography==41.0.5
+cryptography==41.0.7
     # via secretstorage
 diff-cover==8.0.1
     # via -r requirements/dev.in
@@ -60,9 +60,9 @@ filelock==3.13.1
     # via
     #   tox
     #   virtualenv
-idna==3.4
+idna==3.6
     # via requests
-importlib-metadata==6.8.0
+importlib-metadata==7.0.0
     # via
     #   build
     #   keyring
@@ -104,15 +104,14 @@ packaging==23.2
     #   build
     #   pyproject-api
     #   tox
-path==16.7.1
+path==16.9.0
     # via edx-i18n-tools
 pbr==6.0.0
     # via stevedore
 pkginfo==1.9.6
     # via twine
-platformdirs==3.11.0
+platformdirs==4.1.0
     # via
-    #   -c requirements/common_constraints.txt
     #   pylint
     #   tox
     #   virtualenv
@@ -190,7 +189,7 @@ tomli==2.0.1
     #   tox
 tomlkit==0.12.3
     # via pylint
-tox==4.11.3
+tox==4.11.4
     # via -r requirements/dev.in
 twine==4.0.2
     # via
@@ -206,9 +205,9 @@ urllib3==2.1.0
     # via
     #   requests
     #   twine
-virtualenv==20.24.7
+virtualenv==20.25.0
     # via tox
-wheel==0.41.3
+wheel==0.42.0
     # via -r requirements/dev.in
 zipp==3.17.0
     # via

@@ -35,7 +35,7 @@ edx-lint==5.3.6
     # via -r requirements/quality.in
 idna==3.6
     # via requests
-importlib-metadata==7.0.0
+importlib-metadata==7.0.1
     # via
     #   build
     #   keyring

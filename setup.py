@@ -104,9 +104,10 @@ setup(
     version=VERSION,
     description="""Django app for linking to help pages with short tokens""",
     long_description=README + '\n\n' + CHANGELOG,
+    long_description_content_type='text/x-rst',
     author='edX',
     author_email='oscm@edx.org',
-    url='https://github.com/edx/help-tokens',
+    url='https://github.com/openedx/help-tokens',
     packages=[
         'help_tokens',
     ],

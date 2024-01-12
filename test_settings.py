@@ -30,6 +30,7 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'help_tokens',
+    'release_util',
 )
 
 LOCALE_PATHS = [

@@ -23,11 +23,11 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.5.0
+code-annotations==1.6.0
     # via edx-lint
-cryptography==42.0.0
+cryptography==42.0.2
     # via secretstorage
-dill==0.3.7
+dill==0.3.8
     # via pylint
 docutils==0.20.1
     # via readme-renderer
@@ -74,7 +74,7 @@ pbr==6.0.0
     # via stevedore
 pkginfo==1.9.6
     # via twine
-platformdirs==4.1.0
+platformdirs==4.2.0
     # via pylint
 pycodestyle==2.11.1
     # via -r requirements/quality.in
@@ -102,7 +102,7 @@ pylint-plugin-utils==0.8.2
     #   pylint-django
 pyproject-hooks==1.0.0
     # via build
-python-slugify==8.0.1
+python-slugify==8.0.2
     # via code-annotations
 pyyaml==6.0.1
     # via code-annotations
@@ -140,7 +140,7 @@ typing-extensions==4.9.0
     #   astroid
     #   pylint
     #   rich
-urllib3==2.1.0
+urllib3==2.2.0
     # via
     #   requests
     #   twine

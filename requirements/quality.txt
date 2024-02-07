@@ -4,13 +4,13 @@
 #
 #    make upgrade
 #
-astroid==3.0.2
+astroid==3.0.3
     # via
     #   pylint
     #   pylint-celery
 build==1.0.3
     # via -r requirements/quality.in
-certifi==2023.11.17
+certifi==2024.2.2
     # via requests
 cffi==1.16.0
     # via cryptography
@@ -58,7 +58,7 @@ keyring==24.3.0
     # via twine
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.4
+markupsafe==2.1.5
     # via jinja2
 mccabe==0.7.0
     # via pylint
@@ -102,7 +102,7 @@ pylint-plugin-utils==0.8.2
     #   pylint-django
 pyproject-hooks==1.0.0
     # via build
-python-slugify==8.0.2
+python-slugify==8.0.3
     # via code-annotations
 pyyaml==6.0.1
     # via code-annotations

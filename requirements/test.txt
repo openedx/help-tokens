@@ -37,7 +37,7 @@ pytest-cov==4.1.0
     # via -r requirements/test.in
 pytest-django==4.8.0
     # via -r requirements/test.in
-pytz==2023.4
+pytz==2024.1
     # via django
 pyyaml==6.0.1
     # via edx-django-release-util

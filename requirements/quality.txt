@@ -46,7 +46,7 @@ isort==5.13.2
     # via
     #   -r requirements/quality.in
     #   pylint
-jaraco-classes==3.3.0
+jaraco-classes==3.3.1
     # via keyring
 jeepney==0.8.0
     # via
@@ -102,7 +102,7 @@ pylint-plugin-utils==0.8.2
     #   pylint-django
 pyproject-hooks==1.0.0
     # via build
-python-slugify==8.0.3
+python-slugify==8.0.4
     # via code-annotations
 pyyaml==6.0.1
     # via code-annotations
@@ -133,7 +133,7 @@ tomli==2.0.1
     #   pyproject-hooks
 tomlkit==0.12.3
     # via pylint
-twine==4.0.2
+twine==5.0.0
     # via -r requirements/quality.in
 typing-extensions==4.9.0
     # via

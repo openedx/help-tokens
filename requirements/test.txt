@@ -6,10 +6,8 @@
 #
 asgiref==3.7.2
     # via django
-coverage[toml]==7.4.1
-    # via
-    #   coverage
-    #   pytest-cov
+coverage[toml]==7.4.2
+    # via pytest-cov
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
@@ -26,7 +24,7 @@ pluggy==1.4.0
     # via pytest
 py==1.11.0
     # via pytest-catchlog
-pytest==8.0.0
+pytest==8.0.1
     # via
     #   pytest-catchlog
     #   pytest-cov

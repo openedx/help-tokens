@@ -8,7 +8,7 @@ astroid==3.1.0
     # via
     #   pylint
     #   pylint-celery
-build==1.0.3
+build==1.1.1
     # via -r requirements/quality.in
 certifi==2024.2.2
     # via requests
@@ -72,7 +72,7 @@ packaging==23.2
     # via build
 pbr==6.0.0
     # via stevedore
-pkginfo==1.9.6
+pkginfo==1.10.0
     # via twine
 platformdirs==4.2.0
     # via pylint
@@ -116,7 +116,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.7.0
+rich==13.7.1
     # via twine
 secretstorage==3.3.3
     # via keyring

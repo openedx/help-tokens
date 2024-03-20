@@ -8,7 +8,7 @@ astroid==3.1.0
     # via
     #   pylint
     #   pylint-celery
-build==1.0.3
+build==1.1.1
     # via -r requirements/quality.in
 certifi==2024.2.2
     # via requests
@@ -23,7 +23,7 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.6.0
+code-annotations==1.7.0
     # via edx-lint
 cryptography==42.0.5
     # via secretstorage
@@ -35,12 +35,13 @@ edx-lint==5.3.6
     # via -r requirements/quality.in
 idna==3.6
     # via requests
-importlib-metadata==7.0.1
+importlib-metadata==6.11.0
     # via
+    #   -c requirements/common_constraints.txt
     #   build
     #   keyring
     #   twine
-importlib-resources==6.1.2
+importlib-resources==6.3.2
     # via keyring
 isort==5.13.2
     # via
@@ -68,11 +69,11 @@ more-itertools==10.2.0
     # via jaraco-classes
 nh3==0.2.15
     # via readme-renderer
-packaging==23.2
+packaging==24.0
     # via build
 pbr==6.0.0
     # via stevedore
-pkginfo==1.9.6
+pkginfo==1.10.0
     # via twine
 platformdirs==4.2.0
     # via pylint
@@ -116,7 +117,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.7.0
+rich==13.7.1
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -144,7 +145,7 @@ urllib3==2.2.1
     # via
     #   requests
     #   twine
-zipp==3.17.0
+zipp==3.18.1
     # via
     #   importlib-metadata
     #   importlib-resources

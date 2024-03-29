@@ -31,15 +31,17 @@ class HelpUrlExpert:
         """
         Read a value from the configuration, with a default.
 
-        Args:
-            section_name (str): name of the section in the configuration from which
+        Args
+        ----
+            section_name (str): Name of the section in the configuration from which
                 the option should be found.
-            option (str): name of the configuration option.
-            default_option (str): name of the default configuration option whose
+            option (str): Name of the configuration option.
+            default_option (str): Name of the default configuration option whose
                 value should be returned if the requested option is not found.
 
-        Returns:
-            str: the value from the ini file.
+        Returns
+        -------
+            str: The value from the ini file.
 
         """
         if self.config is None:

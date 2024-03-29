@@ -14,7 +14,7 @@ def _get_online_help_info(token=None):
 
 def context_processor(request):
     """
-    The help-tokens context processor.
+    help-tokens context processor.
 
     The odd structure of the return is to maintain compatibility with the way
     edx-platform uses it.

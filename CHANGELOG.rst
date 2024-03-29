@@ -11,6 +11,12 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[2.4.0] - 2024-03-29
+====================
+
+* Added support for Python 3.11
+* Dropped support for Django 3.2, Django 4.0 and Django 4.1
+
 [2.3.0] - 2023-08-02
 ====================
 

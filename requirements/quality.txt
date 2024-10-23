@@ -4,17 +4,19 @@
 #
 #    make upgrade
 #
-astroid==3.2.4
+astroid==3.3.5
     # via
     #   pylint
     #   pylint-celery
 backports-tarfile==1.2.0
     # via jaraco-context
-build==1.2.1
+build==1.2.2.post1
     # via -r requirements/quality.in
-certifi==2024.7.4
+certifi==2024.8.30
     # via requests
-charset-normalizer==3.3.2
+cffi==1.17.1
+    # via cryptography
+charset-normalizer==3.4.0
     # via requests
 click==8.1.7
     # via
@@ -25,15 +27,17 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==1.8.0
     # via edx-lint
-dill==0.3.8
+cryptography==43.0.3
+    # via secretstorage
+dill==0.3.9
     # via pylint
 docutils==0.21.2
     # via readme-renderer
-edx-lint==5.3.7
+edx-lint==5.4.0
     # via -r requirements/quality.in
-idna==3.7
+idna==3.10
     # via requests
-importlib-metadata==8.4.0
+importlib-metadata==8.5.0
     # via
     #   keyring
     #   twine
@@ -45,21 +49,25 @@ jaraco-classes==3.4.0
     # via keyring
 jaraco-context==6.0.1
     # via keyring
-jaraco-functools==4.0.2
+jaraco-functools==4.1.0
     # via keyring
+jeepney==0.8.0
+    # via
+    #   keyring
+    #   secretstorage
 jinja2==3.1.4
     # via code-annotations
-keyring==25.3.0
+keyring==25.4.1
     # via twine
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.5
+markupsafe==3.0.2
     # via jinja2
 mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.4.0
+more-itertools==10.5.0
     # via
     #   jaraco-classes
     #   jaraco-functools
@@ -67,21 +75,23 @@ nh3==0.2.18
     # via readme-renderer
 packaging==24.1
     # via build
-pbr==6.0.0
+pbr==6.1.0
     # via stevedore
 pkginfo==1.10.0
     # via twine
-platformdirs==4.2.2
+platformdirs==4.3.6
     # via pylint
 pycodestyle==2.12.1
     # via -r requirements/quality.in
+pycparser==2.22
+    # via cffi
 pydocstyle==6.3.0
     # via -r requirements/quality.in
 pygments==2.18.0
     # via
     #   readme-renderer
     #   rich
-pylint==3.2.6
+pylint==3.3.1
     # via
     #   edx-lint
     #   pylint-celery
@@ -89,13 +99,13 @@ pylint==3.2.6
     #   pylint-plugin-utils
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.5.5
+pylint-django==2.6.1
     # via edx-lint
 pylint-plugin-utils==0.8.2
     # via
     #   pylint-celery
     #   pylint-django
-pyproject-hooks==1.1.0
+pyproject-hooks==1.2.0
     # via build
 python-slugify==8.0.4
     # via code-annotations
@@ -111,8 +121,10 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.7.1
+rich==13.9.3
     # via twine
+secretstorage==3.3.3
+    # via keyring
 six==1.16.0
     # via edx-lint
 snowballstemmer==2.2.0
@@ -125,9 +137,9 @@ tomlkit==0.13.2
     # via pylint
 twine==5.1.1
     # via -r requirements/quality.in
-urllib3==2.2.2
+urllib3==2.2.3
     # via
     #   requests
     #   twine
-zipp==3.20.0
+zipp==3.20.2
     # via importlib-metadata

@@ -108,7 +108,7 @@ more-itertools==10.5.0
     #   jaraco-functools
 nh3==0.2.18
     # via readme-renderer
-packaging==24.1
+packaging==24.2
     # via
     #   build
     #   pyproject-api
@@ -175,7 +175,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.9.3
+rich==13.9.4
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -203,7 +203,7 @@ urllib3==2.2.3
     #   twine
 virtualenv==20.27.1
     # via tox
-wheel==0.44.0
+wheel==0.45.0
     # via -r requirements/dev.in
-zipp==3.20.2
+zipp==3.21.0
     # via importlib-metadata

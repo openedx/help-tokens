@@ -33,7 +33,7 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.8.0
+code-annotations==1.8.2
     # via edx-lint
 colorama==0.4.6
     # via tox
@@ -92,7 +92,7 @@ lxml[html-clean,html_clean]==5.3.0
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
-lxml-html-clean==0.3.1
+lxml-html-clean==0.4.1
     # via lxml
 markdown-it-py==3.0.0
     # via rich
@@ -108,7 +108,7 @@ more-itertools==10.5.0
     #   jaraco-functools
 nh3==0.2.18
     # via readme-renderer
-packaging==24.1
+packaging==24.2
     # via
     #   build
     #   pyproject-api
@@ -175,7 +175,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.9.3
+rich==13.9.4
     # via twine
 secretstorage==3.3.3
     # via keyring
@@ -183,7 +183,7 @@ six==1.16.0
     # via edx-lint
 snowballstemmer==2.2.0
     # via pydocstyle
-sqlparse==0.5.1
+sqlparse==0.5.2
     # via django
 stevedore==5.3.0
     # via code-annotations
@@ -203,7 +203,7 @@ urllib3==2.2.3
     #   twine
 virtualenv==20.27.1
     # via tox
-wheel==0.44.0
+wheel==0.45.0
     # via -r requirements/dev.in
-zipp==3.20.2
+zipp==3.21.0
     # via importlib-metadata

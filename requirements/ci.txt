@@ -40,11 +40,11 @@ pyproject-api==1.9.0
     # via tox
 requests==2.32.3
     # via codecov
-tox==4.24.1
+tox==4.24.2
     # via -r requirements/ci.in
 urllib3==2.2.3
     # via
     #   -c requirements/common_constraints.txt
     #   requests
-virtualenv==20.29.2
+virtualenv==20.29.3
     # via tox

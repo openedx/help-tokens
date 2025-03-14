@@ -11,6 +11,15 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[3.0.0] - 2025-03-14
+====================
+
+* Dropped support for edx.readthedocs.io URLs in
+  favor of docs.openedx.org URLs.
+
+  See https://github.com/openedx/edx-documentation/issues/2319
+
+
 [2.4.0] - 2024-03-29
 ====================
 

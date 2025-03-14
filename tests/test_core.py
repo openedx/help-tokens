@@ -27,29 +27,29 @@ def test_no_token(sample_expert):
 
 
 def test_url_for_token(sample_expert, book_settings):
-    expected = "http://edx.readthedocs.io/projects/learner-guide/en/ver/SFD_instructor_dash_help.html"
+    expected = "https://docs.openedx.org/en/latest/learners/SFD_instructor_dash_help.html"
     assert sample_expert.url_for_token("instructor") == expected
 
 
 def test_no_version(sample_expert, book_settings):
     book_settings.HELP_TOKENS_VERSION = None
-    expected = "http://edx.readthedocs.io/projects/learner-guide/en/SFD_instructor_dash_help.html"
+    expected = "https://docs.openedx.org/en/latest/learners/SFD_instructor_dash_help.html"
     assert sample_expert.url_for_token("instructor") == expected
 
 
 def test_language_code(sample_expert, book_settings):
     book_settings.HELP_TOKENS_LANGUAGE_CODE = "fr_CA"
-    expected = "http://edx.readthedocs.io/projects/learner-guide/fr/ver/SFD_instructor_dash_help.html"
+    expected = "https://docs.openedx.org/fr/latest/learners/SFD_instructor_dash_help.html"
     assert sample_expert.url_for_token("instructor") == expected
 
 
 def test_unknown_language_code(sample_expert, book_settings):
     book_settings.HELP_TOKENS_LANGUAGE_CODE = "xx"
-    expected = "http://edx.readthedocs.io/projects/learner-guide/en/ver/SFD_instructor_dash_help.html"
+    expected = "https://docs.openedx.org/en/latest/learners/SFD_instructor_dash_help.html"
     assert sample_expert.url_for_token("instructor") == expected
 
 
 def test_no_language_code(sample_expert, book_settings):
     book_settings.HELP_TOKENS_LANGUAGE_CODE = None
-    expected = "http://edx.readthedocs.io/projects/learner-guide/ver/SFD_instructor_dash_help.html"
+    expected = "https://docs.openedx.org/en/latest/learners/SFD_instructor_dash_help.html"
     assert sample_expert.url_for_token("instructor") == expected

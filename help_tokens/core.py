@@ -70,11 +70,11 @@ class HelpUrlExpert:
         lang = getattr(settings, "HELP_TOKENS_LANGUAGE_CODE", None)
         if lang is not None:
             lang = self.get_config_value("locales", lang)
-            url += "/" + lang
+            url = url.replace("/en", "/" + lang)
 
         version = getattr(settings, "HELP_TOKENS_VERSION", None)
         if version is not None:
-            url += "/" + version
+            url = url.replace("/latest", "/" + version)
 
         url += "/" + url_tail
         return url

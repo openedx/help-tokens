@@ -58,7 +58,7 @@ edx-lint==5.6.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.17.0
+filelock==3.18.0
     # via
     #   tox
     #   virtualenv

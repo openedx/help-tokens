@@ -16,7 +16,7 @@ codecov==2.1.13
     # via -r requirements/ci.in
 colorama==0.4.6
     # via tox
-coverage==7.7.0
+coverage==7.7.1
     # via codecov
 distlib==0.3.9
     # via virtualenv
@@ -30,7 +30,7 @@ packaging==24.2
     # via
     #   pyproject-api
     #   tox
-platformdirs==4.3.6
+platformdirs==4.3.7
     # via
     #   tox
     #   virtualenv

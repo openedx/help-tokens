@@ -79,7 +79,7 @@ packaging==24.2
     #   twine
 pbr==6.1.1
     # via stevedore
-platformdirs==4.3.6
+platformdirs==4.3.7
     # via pylint
 pycodestyle==2.12.1
     # via -r requirements/quality.in
@@ -91,7 +91,7 @@ pygments==2.19.1
     # via
     #   readme-renderer
     #   rich
-pylint==3.3.5
+pylint==3.3.6
     # via
     #   edx-lint
     #   pylint-celery

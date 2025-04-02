@@ -79,9 +79,9 @@ packaging==24.2
     #   twine
 pbr==6.1.1
     # via stevedore
-platformdirs==4.3.6
+platformdirs==4.3.7
     # via pylint
-pycodestyle==2.12.1
+pycodestyle==2.13.0
     # via -r requirements/quality.in
 pycparser==2.22
     # via cffi
@@ -91,7 +91,7 @@ pygments==2.19.1
     # via
     #   readme-renderer
     #   rich
-pylint==3.3.5
+pylint==3.3.6
     # via
     #   edx-lint
     #   pylint-celery
@@ -122,7 +122,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==13.9.4
+rich==14.0.0
     # via twine
 secretstorage==3.3.3
     # via keyring

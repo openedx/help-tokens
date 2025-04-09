@@ -11,6 +11,11 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[3.1.0] - 2025-04-09
+====================
+* Dropped support for Python 3.8 and 3.9
+* Added support fort Django 5.2
+
 [3.0.0] - 2025-03-14
 ====================
 

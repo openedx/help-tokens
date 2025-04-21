@@ -14,8 +14,6 @@ build==1.2.2.post1
     # via -r requirements/quality.in
 certifi==2025.1.31
     # via requests
-cffi==1.17.1
-    # via cryptography
 charset-normalizer==3.4.1
     # via requests
 click==8.1.8
@@ -27,9 +25,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==2.3.0
     # via edx-lint
-cryptography==44.0.2
-    # via secretstorage
-dill==0.3.9
+dill==0.4.0
     # via pylint
 docutils==0.21.2
     # via readme-renderer
@@ -51,10 +47,6 @@ jaraco-context==6.0.1
     # via keyring
 jaraco-functools==4.1.0
     # via keyring
-jeepney==0.9.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.6
     # via code-annotations
 keyring==25.6.0
@@ -73,7 +65,7 @@ more-itertools==10.6.0
     #   jaraco-functools
 nh3==0.2.21
     # via readme-renderer
-packaging==24.2
+packaging==25.0
     # via
     #   build
     #   twine
@@ -83,8 +75,6 @@ platformdirs==4.3.7
     # via pylint
 pycodestyle==2.13.0
     # via -r requirements/quality.in
-pycparser==2.22
-    # via cffi
 pydocstyle==6.3.0
     # via -r requirements/quality.in
 pygments==2.19.1
@@ -124,8 +114,6 @@ rfc3986==2.0.0
     # via twine
 rich==14.0.0
     # via twine
-secretstorage==3.3.3
-    # via keyring
 six==1.17.0
     # via edx-lint
 snowballstemmer==2.2.0

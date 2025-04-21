@@ -11,6 +11,10 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[3.2.0] - 2025-04-21
+====================
+* Added support for Python 3.12
+
 [3.1.0] - 2025-04-09
 ====================
 * Dropped support for Python 3.8 and 3.9

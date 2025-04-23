@@ -16,7 +16,7 @@ edx-django-release-util==1.4.0
     # via -r requirements/test.in
 iniconfig==2.1.0
     # via pytest
-packaging==24.2
+packaging==25.0
     # via pytest
 pluggy==1.5.0
     # via pytest

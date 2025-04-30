@@ -31,15 +31,17 @@ class HelpUrlExpert:
         """
         Read a value from the configuration, with a default.
 
-        Args:
-            section_name (str): name of the section in the configuration from which
+        Args
+        ----
+            section_name (str): Name of the section in the configuration from which
                 the option should be found.
-            option (str): name of the configuration option.
-            default_option (str): name of the default configuration option whose
+            option (str): Name of the configuration option.
+            default_option (str): Name of the default configuration option whose
                 value should be returned if the requested option is not found.
 
-        Returns:
-            str: the value from the ini file.
+        Returns
+        -------
+            str: The value from the ini file.
 
         """
         if self.config is None:
@@ -68,11 +70,11 @@ class HelpUrlExpert:
         lang = getattr(settings, "HELP_TOKENS_LANGUAGE_CODE", None)
         if lang is not None:
             lang = self.get_config_value("locales", lang)
-            url += "/" + lang
+            url = url.replace("/en", "/" + lang)
 
         version = getattr(settings, "HELP_TOKENS_VERSION", None)
         if version is not None:
-            url += "/" + version
+            url = url.replace("/latest", "/" + version)
 
         url += "/" + url_tail
         return url

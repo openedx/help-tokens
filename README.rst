@@ -42,8 +42,8 @@ Help-tokens reads these Django settings to create URLs:
 * HELP_TOKENS_BOOKS: a dictionary mapping book slugs to URLs.  For example::
 
     HELP_TOKENS_BOOKS = {
-        'learner': 'http://edx.readthedocs.io/projects/learner-guide',
-        'course_author': 'http://edx.readthedocs.io/projects/running-a-course',
+        'learner': 'https://docs.openedx.org/en/latest/learners',
+        'course_author': 'https://docs.openedx.org/en/latest/educators',
     }
 
 * HELP_TOKENS_VERSION: a string used as part of the final URL, to choose the

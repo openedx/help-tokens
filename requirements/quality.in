@@ -5,6 +5,6 @@
 edx-lint                  # edX pylint rules and plugins
 isort                     # to standardize order of imports
 pycodestyle               # PEP 8 compliance validation
-pydocstyle<2.0            # PEP 257 compliance validation: 2.0 doesn't know Google style, and tries to correct my grammar... :(
+pydocstyle                # PEP 257 compliance validation: 2.0 doesn't know Google style, and tries to correct my grammar... :(
 build                     # Build needs to be created for README validation
 twine                     # Needed to validate README.rst for usage on PyPI

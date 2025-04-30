@@ -19,9 +19,9 @@ def book_settings(settings):
     """Set some HELP_TOKENS settings."""
     settings.HELP_TOKENS_INI_FILE = "tests/sample.ini"
     settings.HELP_TOKENS_BOOKS = {
-        'learner': 'http://edx.readthedocs.io/projects/learner-guide',
-        'course_author': 'http://edx.readthedocs.io/projects/running-a-course',
+        'learner': 'https://docs.openedx.org/en/latest/learners',
+        'course_author': 'https://docs.openedx.org/en/latest/educators',
     }
-    settings.HELP_TOKENS_VERSION = "ver"
+    settings.HELP_TOKENS_VERSION = "latest"
     settings.HELP_TOKENS_LANGUAGE_CODE = "en"
     return settings

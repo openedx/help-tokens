@@ -11,6 +11,30 @@ Change Log
 
 .. There should always be an "Unreleased" section for changes pending release.
 
+[3.2.0] - 2025-04-21
+====================
+* Added support for Python 3.12
+
+[3.1.0] - 2025-04-09
+====================
+* Dropped support for Python 3.8 and 3.9
+* Added support fort Django 5.2
+
+[3.0.0] - 2025-03-14
+====================
+
+* Dropped support for edx.readthedocs.io URLs in
+  favor of docs.openedx.org URLs.
+
+  See https://github.com/openedx/edx-documentation/issues/2319
+
+
+[2.4.0] - 2024-03-29
+====================
+
+* Added support for Python 3.11
+* Dropped support for Django 3.2, Django 4.0 and Django 4.1
+
 [2.3.0] - 2023-08-02
 ====================
 

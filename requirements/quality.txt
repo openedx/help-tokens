@@ -12,8 +12,10 @@ backports-tarfile==1.2.0
     # via jaraco-context
 build==1.2.2.post1
     # via -r requirements/quality.in
-certifi==2025.1.31
+certifi==2025.4.26
     # via requests
+cffi==1.17.1
+    # via cryptography
 charset-normalizer==3.4.1
     # via requests
 click==8.1.8
@@ -25,6 +27,8 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==2.3.0
     # via edx-lint
+cryptography==44.0.2
+    # via secretstorage
 dill==0.4.0
     # via pylint
 docutils==0.21.2
@@ -35,7 +39,7 @@ id==1.5.0
     # via twine
 idna==3.10
     # via requests
-importlib-metadata==8.6.1
+importlib-metadata==8.7.0
     # via keyring
 isort==6.0.1
     # via
@@ -47,6 +51,10 @@ jaraco-context==6.0.1
     # via keyring
 jaraco-functools==4.1.0
     # via keyring
+jeepney==0.9.0
+    # via
+    #   keyring
+    #   secretstorage
 jinja2==3.1.6
     # via code-annotations
 keyring==25.6.0
@@ -59,7 +67,7 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.6.0
+more-itertools==10.7.0
     # via
     #   jaraco-classes
     #   jaraco-functools
@@ -75,6 +83,8 @@ platformdirs==4.3.7
     # via pylint
 pycodestyle==2.13.0
     # via -r requirements/quality.in
+pycparser==2.22
+    # via cffi
 pydocstyle==6.3.0
     # via -r requirements/quality.in
 pygments==2.19.1
@@ -114,6 +124,8 @@ rfc3986==2.0.0
     # via twine
 rich==14.0.0
     # via twine
+secretstorage==3.3.3
+    # via keyring
 six==1.17.0
     # via edx-lint
 snowballstemmer==2.2.0

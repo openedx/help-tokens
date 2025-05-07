@@ -24,7 +24,7 @@ chardet==5.2.0
     # via
     #   diff-cover
     #   tox
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
 click==8.1.8
     # via
@@ -37,7 +37,7 @@ code-annotations==2.3.0
     # via edx-lint
 colorama==0.4.6
     # via tox
-cryptography==44.0.2
+cryptography==44.0.3
     # via secretstorage
 diff-cover==9.2.4
     # via -r requirements/dev.in
@@ -140,7 +140,7 @@ pygments==2.19.1
     #   diff-cover
     #   readme-renderer
     #   rich
-pylint==3.3.6
+pylint==3.3.7
     # via
     #   edx-lint
     #   pylint-celery
@@ -202,7 +202,7 @@ urllib3==2.2.3
     #   -c requirements/common_constraints.txt
     #   requests
     #   twine
-virtualenv==20.30.0
+virtualenv==20.31.1
     # via tox
 wheel==0.45.1
     # via -r requirements/dev.in

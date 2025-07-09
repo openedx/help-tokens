@@ -12,7 +12,7 @@ backports-tarfile==1.2.0
     # via jaraco-context
 build==1.2.2.post1
     # via -r requirements/quality.in
-certifi==2025.6.15
+certifi==2025.7.9
     # via requests
 cffi==1.17.1
     # via cryptography
@@ -27,7 +27,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==2.3.0
     # via edx-lint
-cryptography==45.0.4
+cryptography==45.0.5
     # via secretstorage
 dill==0.4.0
     # via pylint

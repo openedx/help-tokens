@@ -6,7 +6,7 @@
 #
 cachetools==6.1.0
     # via tox
-certifi==2025.6.15
+certifi==2025.7.9
     # via requests
 chardet==5.2.0
     # via tox
@@ -16,7 +16,7 @@ codecov==2.1.13
     # via -r requirements/ci.in
 colorama==0.4.6
     # via tox
-coverage==7.9.1
+coverage==7.9.2
     # via codecov
 distlib==0.3.9
     # via virtualenv

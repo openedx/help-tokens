@@ -24,7 +24,7 @@ chardet==5.2.0
     # via
     #   diff-cover
     #   tox
-charset-normalizer==3.4.2
+charset-normalizer==3.4.3
     # via requests
 click==8.2.1
     # via
@@ -94,7 +94,7 @@ lxml[html-clean]==6.0.0
     #   lxml-html-clean
 lxml-html-clean==0.4.2
     # via lxml
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
@@ -140,7 +140,7 @@ pygments==2.19.2
     #   diff-cover
     #   readme-renderer
     #   rich
-pylint==3.3.7
+pylint==3.3.8
     # via
     #   edx-lint
     #   pylint-celery

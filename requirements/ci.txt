@@ -10,13 +10,13 @@ certifi==2025.8.3
     # via requests
 chardet==5.2.0
     # via tox
-charset-normalizer==3.4.2
+charset-normalizer==3.4.3
     # via requests
 codecov==2.1.13
     # via -r requirements/ci.in
 colorama==0.4.6
     # via tox
-coverage==7.10.2
+coverage==7.10.3
     # via codecov
 distlib==0.4.0
     # via virtualenv

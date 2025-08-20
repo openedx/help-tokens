@@ -24,7 +24,7 @@ chardet==5.2.0
     # via
     #   diff-cover
     #   tox
-charset-normalizer==3.4.2
+charset-normalizer==3.4.3
     # via requests
 click==8.2.1
     # via
@@ -58,7 +58,7 @@ edx-lint==5.6.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   tox
     #   virtualenv
@@ -76,7 +76,7 @@ jaraco-classes==3.4.0
     # via keyring
 jaraco-context==6.0.1
     # via keyring
-jaraco-functools==4.2.1
+jaraco-functools==4.3.0
     # via keyring
 jeepney==0.9.0
     # via
@@ -94,7 +94,7 @@ lxml[html-clean]==6.0.0
     #   lxml-html-clean
 lxml-html-clean==0.4.2
     # via lxml
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
@@ -116,7 +116,7 @@ packaging==25.0
     #   twine
 path==16.16.0
     # via edx-i18n-tools
-pbr==6.1.1
+pbr==7.0.0
     # via stevedore
 platformdirs==4.3.8
     # via
@@ -140,7 +140,7 @@ pygments==2.19.2
     #   diff-cover
     #   readme-renderer
     #   rich
-pylint==3.3.7
+pylint==3.3.8
     # via
     #   edx-lint
     #   pylint-celery
@@ -166,7 +166,7 @@ pyyaml==6.0.2
     #   edx-i18n-tools
 readme-renderer==44.0
     # via twine
-requests==2.32.4
+requests==2.32.5
     # via
     #   id
     #   requests-toolbelt
@@ -201,7 +201,7 @@ urllib3==2.5.0
     # via
     #   requests
     #   twine
-virtualenv==20.33.1
+virtualenv==20.34.0
     # via tox
 wheel==0.45.1
     # via -r requirements/dev.in

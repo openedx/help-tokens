@@ -37,9 +37,9 @@ code-annotations==2.3.0
     # via edx-lint
 colorama==0.4.6
     # via tox
-cryptography==46.0.1
+cryptography==46.0.2
     # via secretstorage
-diff-cover==9.7.0
+diff-cover==9.7.1
     # via -r requirements/dev.in
 dill==0.4.0
     # via pylint
@@ -96,7 +96,7 @@ lxml-html-clean==0.4.2
     # via lxml
 markdown-it-py==4.0.0
     # via rich
-markupsafe==3.0.2
+markupsafe==3.0.3
     # via jinja2
 mccabe==0.7.0
     # via pylint
@@ -158,7 +158,7 @@ pyproject-hooks==1.2.0
     # via build
 python-slugify==8.0.4
     # via code-annotations
-pyyaml==6.0.2
+pyyaml==6.0.3
     # via
     #   code-annotations
     #   edx-i18n-tools

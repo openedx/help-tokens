@@ -6,7 +6,7 @@
 #
 cachetools==6.2.0
     # via tox
-certifi==2025.8.3
+certifi==2025.10.5
     # via requests
 chardet==5.2.0
     # via tox
@@ -40,7 +40,7 @@ pyproject-api==1.9.1
     # via tox
 requests==2.32.5
     # via codecov
-tox==4.30.2
+tox==4.30.3
     # via -r requirements/ci.in
 urllib3==2.5.0
     # via requests

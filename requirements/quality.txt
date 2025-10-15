@@ -12,11 +12,11 @@ backports-tarfile==1.2.0
     # via jaraco-context
 build==1.3.0
     # via -r requirements/quality.in
-certifi==2025.8.3
+certifi==2025.10.5
     # via requests
 cffi==2.0.0
     # via cryptography
-charset-normalizer==3.4.3
+charset-normalizer==3.4.4
     # via requests
 click==8.3.0
     # via
@@ -27,7 +27,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==2.3.0
     # via edx-lint
-cryptography==46.0.1
+cryptography==46.0.2
     # via secretstorage
 dill==0.4.0
     # via pylint
@@ -37,11 +37,11 @@ edx-lint==5.6.0
     # via -r requirements/quality.in
 id==1.5.0
     # via twine
-idna==3.10
+idna==3.11
     # via requests
 importlib-metadata==8.7.0
     # via keyring
-isort==6.0.1
+isort==6.1.0
     # via
     #   -r requirements/quality.in
     #   pylint
@@ -61,7 +61,7 @@ keyring==25.6.0
     # via twine
 markdown-it-py==4.0.0
     # via rich
-markupsafe==3.0.2
+markupsafe==3.0.3
     # via jinja2
 mccabe==0.7.0
     # via pylint
@@ -71,13 +71,13 @@ more-itertools==10.8.0
     # via
     #   jaraco-classes
     #   jaraco-functools
-nh3==0.3.0
+nh3==0.3.1
     # via readme-renderer
 packaging==25.0
     # via
     #   build
     #   twine
-platformdirs==4.4.0
+platformdirs==4.5.0
     # via pylint
 pycodestyle==2.14.0
     # via -r requirements/quality.in
@@ -89,7 +89,7 @@ pygments==2.19.2
     # via
     #   readme-renderer
     #   rich
-pylint==3.3.8
+pylint==3.3.9
     # via
     #   edx-lint
     #   pylint-celery
@@ -107,7 +107,7 @@ pyproject-hooks==1.2.0
     # via build
 python-slugify==8.0.4
     # via code-annotations
-pyyaml==6.0.2
+pyyaml==6.0.3
     # via code-annotations
 readme-renderer==44.0
     # via twine
@@ -120,7 +120,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==14.1.0
+rich==14.2.0
     # via twine
 secretstorage==3.4.0
     # via keyring

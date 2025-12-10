@@ -39,7 +39,7 @@ colorama==0.4.6
     # via tox
 cryptography==46.0.3
     # via secretstorage
-diff-cover==9.7.2
+diff-cover==10.0.0
     # via -r requirements/dev.in
 dill==0.4.0
     # via pylint
@@ -116,7 +116,7 @@ packaging==25.0
     #   twine
 path==16.16.0
     # via edx-i18n-tools
-platformdirs==4.5.0
+platformdirs==4.5.1
     # via
     #   pylint
     #   tox
@@ -195,7 +195,7 @@ twine==6.2.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-urllib3==2.5.0
+urllib3==2.6.1
     # via
     #   requests
     #   twine

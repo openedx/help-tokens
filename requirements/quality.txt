@@ -136,7 +136,7 @@ tomlkit==0.13.3
     # via pylint
 twine==6.2.0
     # via -r requirements/quality.in
-urllib3==2.6.1
+urllib3==2.6.2
     # via
     #   requests
     #   twine

@@ -39,7 +39,7 @@ colorama==0.4.6
     # via tox
 cryptography==46.0.3
     # via secretstorage
-diff-cover==10.0.0
+diff-cover==10.1.0
     # via -r requirements/dev.in
 dill==0.4.0
     # via pylint
@@ -50,7 +50,7 @@ django==5.2.9
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
     #   edx-i18n-tools
-docutils==0.22.3
+docutils==0.22.4
     # via readme-renderer
 edx-i18n-tools==1.9.0
     # via -r requirements/dev.in
@@ -66,7 +66,7 @@ id==1.5.0
     # via twine
 idna==3.11
     # via requests
-importlib-metadata==8.7.0
+importlib-metadata==8.7.1
     # via keyring
 isort==6.1.0
     # via
@@ -74,9 +74,9 @@ isort==6.1.0
     #   pylint
 jaraco-classes==3.4.0
     # via keyring
-jaraco-context==6.0.1
+jaraco-context==6.0.2
     # via keyring
-jaraco-functools==4.3.0
+jaraco-functools==4.4.0
     # via keyring
 jeepney==0.9.0
     # via
@@ -181,7 +181,7 @@ six==1.17.0
     # via edx-lint
 snowballstemmer==3.0.1
     # via pydocstyle
-sqlparse==0.5.4
+sqlparse==0.5.5
     # via django
 stevedore==5.6.0
     # via code-annotations

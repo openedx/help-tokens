@@ -6,7 +6,7 @@
 #
 asgiref==3.11.0
     # via django
-coverage[toml]==7.13.0
+coverage[toml]==7.13.1
     # via pytest-cov
     # via
     #   -c requirements/common_constraints.txt
@@ -41,5 +41,5 @@ pyyaml==6.0.3
     # via edx-django-release-util
 six==1.17.0
     # via edx-django-release-util
-sqlparse==0.5.4
+sqlparse==0.5.5
     # via django

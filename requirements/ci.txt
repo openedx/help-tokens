@@ -20,7 +20,7 @@ coverage==7.13.1
     # via codecov
 distlib==0.4.0
     # via virtualenv
-filelock==3.20.2
+filelock==3.20.3
     # via
     #   tox
     #   virtualenv
@@ -40,9 +40,9 @@ pyproject-api==1.10.0
     # via tox
 requests==2.32.5
     # via codecov
-tox==4.33.0
+tox==4.34.1
     # via -r requirements/ci.in
-urllib3==2.6.2
+urllib3==2.6.3
     # via requests
-virtualenv==20.35.4
+virtualenv==20.36.1
     # via tox

@@ -6,7 +6,7 @@
 #
 asgiref==3.11.1
     # via django
-astroid==4.0.3
+astroid==4.0.4
     # via
     #   pylint
     #   pylint-celery
@@ -14,7 +14,7 @@ backports-tarfile==1.2.0
     # via jaraco-context
 build==1.4.0
     # via -r requirements/quality.in
-cachetools==7.0.0
+cachetools==7.0.1
     # via tox
 certifi==2026.1.4
     # via requests
@@ -37,7 +37,7 @@ code-annotations==2.3.0
     # via edx-lint
 colorama==0.4.6
     # via tox
-cryptography==46.0.4
+cryptography==46.0.5
     # via secretstorage
 diff-cover==10.2.0
     # via -r requirements/dev.in
@@ -58,11 +58,11 @@ edx-lint==5.6.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.20.3
+filelock==3.24.2
     # via
     #   tox
     #   virtualenv
-id==1.5.0
+id==1.6.1
     # via twine
 idna==3.11
     # via requests
@@ -106,7 +106,7 @@ more-itertools==10.8.0
     # via
     #   jaraco-classes
     #   jaraco-functools
-nh3==0.3.2
+nh3==0.3.3
     # via readme-renderer
 packaging==26.0
     # via
@@ -117,7 +117,7 @@ packaging==26.0
     #   wheel
 path==16.16.0
     # via edx-i18n-tools
-platformdirs==4.5.1
+platformdirs==4.9.2
     # via
     #   pylint
     #   tox
@@ -167,7 +167,6 @@ readme-renderer==44.0
     # via twine
 requests==2.32.5
     # via
-    #   id
     #   requests-toolbelt
     #   twine
 requests-toolbelt==1.0.0
@@ -190,7 +189,7 @@ text-unidecode==1.3
     # via python-slugify
 tomlkit==0.14.0
     # via pylint
-tox==4.34.1
+tox==4.38.0
     # via -r requirements/dev.in
 twine==6.2.0
     # via
@@ -198,9 +197,10 @@ twine==6.2.0
     #   -r requirements/quality.in
 urllib3==2.6.3
     # via
+    #   id
     #   requests
     #   twine
-virtualenv==20.36.1
+virtualenv==20.37.0
     # via tox
 wheel==0.46.3
     # via -r requirements/dev.in

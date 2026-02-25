@@ -6,10 +6,8 @@
 #
 cachetools==7.0.1
     # via tox
-certifi==2026.1.4
+certifi==2026.2.25
     # via requests
-chardet==5.2.0
-    # via tox
 charset-normalizer==3.4.4
     # via requests
 codecov==2.1.13
@@ -20,7 +18,7 @@ coverage==7.13.4
     # via codecov
 distlib==0.4.0
     # via virtualenv
-filelock==3.24.2
+filelock==3.24.3
     # via
     #   tox
     #   virtualenv
@@ -40,9 +38,9 @@ pyproject-api==1.10.0
     # via tox
 requests==2.32.5
     # via codecov
-tox==4.38.0
+tox==4.46.0
     # via -r requirements/ci.in
 urllib3==2.6.3
     # via requests
-virtualenv==20.37.0
+virtualenv==20.39.0
     # via tox

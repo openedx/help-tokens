@@ -25,7 +25,7 @@ click==8.3.1
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==2.3.0
+code-annotations==2.3.2
     # via edx-lint
 cryptography==46.0.5
     # via secretstorage
@@ -41,7 +41,7 @@ idna==3.11
     # via requests
 importlib-metadata==8.7.1
     # via keyring
-isort==8.0.0
+isort==8.0.1
     # via
     #   -r requirements/quality.in
     #   pylint

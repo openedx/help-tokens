@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-cachetools==7.0.1
+cachetools==7.0.2
     # via tox
 certifi==2026.2.25
     # via requests
@@ -18,8 +18,9 @@ coverage==7.13.4
     # via codecov
 distlib==0.4.0
     # via virtualenv
-filelock==3.24.3
+filelock==3.25.0
     # via
+    #   python-discovery
     #   tox
     #   virtualenv
 idna==3.11
@@ -30,17 +31,20 @@ packaging==26.0
     #   tox
 platformdirs==4.9.2
     # via
+    #   python-discovery
     #   tox
     #   virtualenv
 pluggy==1.6.0
     # via tox
 pyproject-api==1.10.0
     # via tox
+python-discovery==1.1.0
+    # via virtualenv
 requests==2.32.5
     # via codecov
-tox==4.46.0
+tox==4.47.3
     # via -r requirements/ci.in
 urllib3==2.6.3
     # via requests
-virtualenv==20.39.0
+virtualenv==21.1.0
     # via tox

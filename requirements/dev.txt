@@ -10,7 +10,7 @@ astroid==4.0.4
     # via
     #   pylint
     #   pylint-celery
-build==1.4.2
+build==1.4.3
     # via -r requirements/quality.in
 cachetools==7.0.5
     # via tox
@@ -18,11 +18,11 @@ certifi==2026.2.25
     # via requests
 cffi==2.0.0
     # via cryptography
-chardet==7.3.0
+chardet==7.4.3
     # via diff-cover
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via
     #   click-log
     #   code-annotations
@@ -33,7 +33,7 @@ code-annotations==3.0.0
     # via edx-lint
 colorama==0.4.6
     # via tox
-cryptography==46.0.6
+cryptography==46.0.7
     # via secretstorage
 diff-cover==10.2.0
     # via -r requirements/dev.in
@@ -41,7 +41,7 @@ dill==0.4.1
     # via pylint
 distlib==0.4.0
     # via virtualenv
-django==5.2.12
+django==5.2.13
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
@@ -54,7 +54,7 @@ edx-lint==6.0.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.25.2
+filelock==3.28.0
     # via
     #   python-discovery
     #   tox
@@ -83,7 +83,7 @@ jinja2==3.1.6
     #   diff-cover
 keyring==25.7.0
     # via twine
-lxml[html-clean]==6.0.2
+lxml[html-clean]==6.0.4
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
@@ -97,13 +97,13 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.8.0
+more-itertools==11.0.2
     # via
     #   jaraco-classes
     #   jaraco-functools
 nh3==0.3.4
     # via readme-renderer
-packaging==26.0
+packaging==26.1
     # via
     #   build
     #   pyproject-api
@@ -112,7 +112,7 @@ packaging==26.0
     #   wheel
 path==16.16.0
     # via edx-i18n-tools
-platformdirs==4.9.4
+platformdirs==4.9.6
     # via
     #   pylint
     #   python-discovery
@@ -130,7 +130,7 @@ pycparser==3.0
     # via cffi
 pydocstyle==6.3.0
     # via -r requirements/quality.in
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   diff-cover
     #   readme-renderer
@@ -153,8 +153,10 @@ pyproject-api==1.10.0
     # via tox
 pyproject-hooks==1.2.0
     # via build
-python-discovery==1.2.0
-    # via virtualenv
+python-discovery==1.2.2
+    # via
+    #   tox
+    #   virtualenv
 python-slugify==8.0.4
     # via code-annotations
 pyyaml==6.0.3
@@ -163,7 +165,7 @@ pyyaml==6.0.3
     #   edx-i18n-tools
 readme-renderer==44.0
     # via twine
-requests==2.33.0
+requests==2.33.1
     # via
     #   requests-toolbelt
     #   twine
@@ -171,7 +173,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==14.3.3
+rich==15.0.0
     # via twine
 secretstorage==3.5.0
     # via keyring
@@ -189,7 +191,7 @@ tomli-w==1.2.0
     # via tox
 tomlkit==0.14.0
     # via pylint
-tox==4.50.3
+tox==4.53.0
     # via -r requirements/dev.in
 twine==6.2.0
     # via
@@ -200,7 +202,7 @@ urllib3==2.6.3
     #   id
     #   requests
     #   twine
-virtualenv==21.2.0
+virtualenv==21.2.4
     # via tox
 wheel==0.46.3
     # via -r requirements/dev.in

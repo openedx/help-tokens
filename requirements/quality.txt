@@ -8,15 +8,15 @@ astroid==4.0.4
     # via
     #   pylint
     #   pylint-celery
-build==1.4.2
+build==1.4.3
     # via -r requirements/quality.in
 certifi==2026.2.25
     # via requests
 cffi==2.0.0
     # via cryptography
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via
     #   click-log
     #   code-annotations
@@ -25,7 +25,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==3.0.0
     # via edx-lint
-cryptography==46.0.6
+cryptography==46.0.7
     # via secretstorage
 dill==0.4.1
     # via pylint
@@ -63,17 +63,17 @@ mccabe==0.7.0
     # via pylint
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.8.0
+more-itertools==11.0.2
     # via
     #   jaraco-classes
     #   jaraco-functools
 nh3==0.3.4
     # via readme-renderer
-packaging==26.0
+packaging==26.1
     # via
     #   build
     #   twine
-platformdirs==4.9.4
+platformdirs==4.9.6
     # via pylint
 pycodestyle==2.14.0
     # via -r requirements/quality.in
@@ -81,7 +81,7 @@ pycparser==3.0
     # via cffi
 pydocstyle==6.3.0
     # via -r requirements/quality.in
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   readme-renderer
     #   rich
@@ -107,7 +107,7 @@ pyyaml==6.0.3
     # via code-annotations
 readme-renderer==44.0
     # via twine
-requests==2.33.0
+requests==2.33.1
     # via
     #   requests-toolbelt
     #   twine
@@ -115,7 +115,7 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==14.3.3
+rich==15.0.0
     # via twine
 secretstorage==3.5.0
     # via keyring

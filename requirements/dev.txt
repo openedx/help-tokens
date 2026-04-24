@@ -12,7 +12,7 @@ astroid==4.0.4
     #   pylint-celery
 build==1.4.3
     # via -r requirements/quality.in
-cachetools==7.0.5
+cachetools==7.0.6
     # via tox
 certifi==2026.2.25
     # via requests
@@ -54,14 +54,14 @@ edx-lint==6.0.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.28.0
+filelock==3.29.0
     # via
     #   python-discovery
     #   tox
     #   virtualenv
 id==1.6.1
     # via twine
-idna==3.11
+idna==3.12
     # via requests
 isort==8.0.1
     # via
@@ -83,7 +83,7 @@ jinja2==3.1.6
     #   diff-cover
 keyring==25.7.0
     # via twine
-lxml[html-clean]==6.0.4
+lxml[html-clean]==6.1.0
     # via
     #   edx-i18n-tools
     #   lxml-html-clean

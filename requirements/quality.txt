@@ -25,7 +25,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==3.0.0
     # via edx-lint
-cryptography==48.0.0
+cryptography==48.0.1
     # via secretstorage
 dill==0.4.1
     # via pylint
@@ -105,7 +105,7 @@ python-slugify==8.0.4
     # via code-annotations
 pyyaml==6.0.3
     # via code-annotations
-readme-renderer==44.0
+readme-renderer==45.0
     # via twine
 requests==2.34.2
     # via

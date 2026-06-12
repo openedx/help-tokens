@@ -33,15 +33,15 @@ code-annotations==3.0.0
     # via edx-lint
 colorama==0.4.6
     # via tox
-cryptography==48.0.0
+cryptography==48.0.1
     # via secretstorage
 diff-cover==10.3.0
     # via -r requirements/dev.in
 dill==0.4.1
     # via pylint
-distlib==0.4.1
+distlib==0.4.2
     # via virtualenv
-django==5.2.14
+django==5.2.15
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
@@ -54,7 +54,7 @@ edx-lint==6.1.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.29.0
+filelock==3.29.1
     # via
     #   python-discovery
     #   tox
@@ -163,7 +163,7 @@ pyyaml==6.0.3
     # via
     #   code-annotations
     #   edx-i18n-tools
-readme-renderer==44.0
+readme-renderer==45.0
     # via twine
 requests==2.34.2
     # via
@@ -193,7 +193,7 @@ tomlkit==0.15.0
     # via
     #   edx-lint
     #   pylint
-tox==4.55.0
+tox==4.55.1
     # via -r requirements/dev.in
 twine==6.2.0
     # via

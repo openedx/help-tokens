@@ -26,7 +26,7 @@ py==1.11.0
     # via pytest-catchlog
 pygments==2.20.0
     # via pytest
-pytest==9.0.3
+pytest==9.1.0
     # via
     #   pytest-catchlog
     #   pytest-cov

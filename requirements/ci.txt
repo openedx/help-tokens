@@ -6,7 +6,7 @@
 #
 cachetools==7.1.4
     # via tox
-certifi==2026.5.20
+certifi==2026.6.17
     # via requests
 charset-normalizer==3.4.7
     # via requests
@@ -14,7 +14,7 @@ codecov==2.1.13
     # via -r requirements/ci.in
 colorama==0.4.6
     # via tox
-coverage==7.14.1
+coverage==7.14.3
     # via codecov
 distlib==0.4.3
     # via virtualenv
@@ -46,7 +46,7 @@ requests==2.34.2
     # via codecov
 tomli-w==1.2.0
     # via tox
-tox==4.55.1
+tox==4.56.0
     # via -r requirements/ci.in
 urllib3==2.7.0
     # via requests

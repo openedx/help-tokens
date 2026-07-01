@@ -22,7 +22,7 @@ chardet==7.4.3
     # via diff-cover
 charset-normalizer==3.4.7
     # via requests
-click==8.4.1
+click==8.4.2
     # via
     #   click-log
     #   code-annotations
@@ -193,7 +193,7 @@ tomlkit==0.15.0
     # via
     #   edx-lint
     #   pylint
-tox==4.56.0
+tox==4.56.1
     # via -r requirements/dev.in
 twine==6.2.0
     # via

@@ -12,13 +12,13 @@ astroid==4.0.4
     #   pylint-celery
 build==1.5.0
     # via -r requirements/quality.in
-cachetools==7.1.6
+cachetools==7.1.7
     # via tox
 certifi==2026.7.22
     # via requests
-cffi==2.1.0
+cffi==2.1.1
     # via cryptography
-chardet==7.4.3
+chardet==7.5.1
     # via diff-cover
 charset-normalizer==3.4.9
     # via requests
@@ -33,15 +33,15 @@ code-annotations==3.0.0
     # via edx-lint
 colorama==0.4.6
     # via tox
-cryptography==49.0.0
+cryptography==50.0.0
     # via secretstorage
-diff-cover==10.4.1
+diff-cover==10.5.0
     # via -r requirements/dev.in
 dill==0.4.1
     # via pylint
 distlib==0.4.3
     # via virtualenv
-django==5.2.16
+django==5.2.17
     # via
     #   -c requirements/common_constraints.txt
     #   -r requirements/base.in
@@ -54,7 +54,7 @@ edx-lint==6.1.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
-filelock==3.32.0
+filelock==3.32.2
     # via
     #   python-discovery
     #   tox
@@ -103,7 +103,7 @@ more-itertools==11.1.0
     #   jaraco-functools
 nh3==0.3.6
     # via readme-renderer
-packaging==26.2
+packaging==26.3
     # via
     #   build
     #   pyproject-api
@@ -112,10 +112,9 @@ packaging==26.2
     #   wheel
 path==16.16.0
     # via edx-i18n-tools
-platformdirs==4.11.0
+platformdirs==4.11.2
     # via
     #   pylint
-    #   python-discovery
     #   tox
     #   virtualenv
 pluggy==1.6.0
@@ -135,7 +134,7 @@ pygments==2.20.0
     #   diff-cover
     #   readme-renderer
     #   rich
-pylint==4.0.6
+pylint==4.0.7
     # via
     #   edx-lint
     #   pylint-celery
@@ -153,7 +152,7 @@ pyproject-api==1.11.0
     # via tox
 pyproject-hooks==1.2.0
     # via build
-python-discovery==1.5.0
+python-discovery==1.5.1
     # via
     #   tox
     #   virtualenv
@@ -193,18 +192,20 @@ tomlkit==0.15.1
     # via
     #   edx-lint
     #   pylint
-tox==4.58.0
+tox==4.59.0
     # via -r requirements/dev.in
 twine==7.0.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/quality.in
+typing-extensions==4.16.0
+    # via tox
 urllib3==2.7.0
     # via
     #   id
     #   requests
     #   twine
-virtualenv==21.7.0
+virtualenv==21.7.4
     # via tox
-wheel==0.47.0
+wheel==0.48.0
     # via -r requirements/dev.in

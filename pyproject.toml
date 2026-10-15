@@ -76,6 +76,7 @@ dev = [
 include-package-data = true
 
 [tool.setuptools.packages.find]
+where = ["src"]
 include = ["help_tokens", "help_tokens.*"]
 exclude = ["*tests*"]
 
@@ -121,7 +122,7 @@ sections = ["FUTURE", "STDLIB", "THIRDPARTY", "DJANGO", "DJANGOAPP", "EDX", "FIR
 [tool.coverage.run]
 branch = true
 data_file = ".coverage"
-source = ["help_tokens"]
+source_pkgs = ["help_tokens"]
 omit = [
     "test_settings",
     "*migrations*",

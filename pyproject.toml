@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm>8.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "help-tokens"
+description = "Django app for linking to help pages with short tokens"
+readme = "README.rst"
+requires-python = ">=3.12"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE.txt", "AUTHORS"]
+authors = [
+    {name = "Open edX Project", email = "oscm@openedx.org"},
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.2",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = [
+    "Django",
+    "edx",
+]
+
+dynamic = ["version"]
+
+dependencies = [
+    "Django",
+]
+
+[project.urls]
+Homepage = "https://github.com/openedx/help-tokens"
+Repository = "https://github.com/openedx/help-tokens"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["help_tokens", "help_tokens.*"]
+exclude = ["*tests*"]
+
+[tool.setuptools_scm]
+version_scheme = "only-version"
+local_scheme = "no-local-version"
+
+[tool.isort]
+line_length = 120
+known_edx = []
+known_django = ["django"]
+known_djangoapp = ["model_utils"]
+known_first_party = ["help_tokens"]
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "DJANGO", "DJANGOAPP", "EDX", "FIRSTPARTY", "LOCALFOLDER"]
+
+[tool.coverage.run]
+branch = true
+data_file = ".coverage"
+source = ["help_tokens"]
+omit = [
+    "test_settings",
+    "*migrations*",
+    "*admin.py",
+    "*static*",
+    "*templates*",
+]

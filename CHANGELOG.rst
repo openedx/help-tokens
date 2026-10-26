@@ -1,9 +1,8 @@
-.. DEPRECATED: This changelog is no longer maintained. Release notes are
-   published only on the GitHub Releases page:
-   https://github.com/openedx/help-tokens/releases
-
 Change Log
 **********
+
+This changelog is no longer maintained. Release notes are published only on
+the `GitHub Releases page <https://github.com/openedx/help-tokens/releases>`_.
 
 ..
    All enhancements and patches to help_tokens will be documented

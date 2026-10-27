@@ -9,3 +9,4 @@ prune .github
 prune htmlcov
 exclude uv.lock Makefile tox.ini pylintrc pylintrc_tweaks codecov.yml catalog-info.yaml openedx.yaml db_keyword_overrides.yml
 global-exclude .coverage coverage.xml
+exclude .gitignore manage.py test_settings.py tests/conftest.py tests/sample.ini

@@ -10,7 +10,7 @@ astroid==4.3.4
     #   pylint-celery
 build==1.6.1
     # via -r requirements/quality.in
-certifi==2026.10.19
+certifi==2026.10.23
     # via requests
 cffi==2.1.1
     # via cryptography
@@ -75,11 +75,11 @@ packaging==26.3
     # via
     #   build
     #   twine
-platformdirs==4.13.5
+platformdirs==4.13.6
     # via pylint
 pycodestyle==2.15.0
     # via -r requirements/quality.in
-pycparser==3.11
+pycparser==3.12
     # via cffi
 pydocstyle==6.3.0
     # via -r requirements/quality.in

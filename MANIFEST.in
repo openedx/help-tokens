@@ -3,6 +3,10 @@ include CHANGELOG.rst
 include CONTRIBUTING.rst
 include LICENSE.txt
 include README.rst
-include requirements/base.in
-recursive-include help_tokens *.html *.png *.gif *js *.css *jpg *jpeg *svg *py
-include requirements/constraints.txt
+recursive-include src/help_tokens *.html *.png *.gif *js *.css *jpg *jpeg *svg *py
+
+prune .github
+prune htmlcov
+exclude uv.lock Makefile tox.ini pylintrc pylintrc_tweaks codecov.yml catalog-info.yaml openedx.yaml db_keyword_overrides.yml
+global-exclude .coverage coverage.xml
+exclude .gitignore manage.py test_settings.py tests/conftest.py tests/sample.ini

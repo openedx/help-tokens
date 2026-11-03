@@ -34,7 +34,7 @@ INSTALLED_APPS = (
 )
 
 LOCALE_PATHS = [
-    root('help_tokens', 'conf', 'locale'),
+    root('src', 'help_tokens', 'conf', 'locale'),
 ]
 
 ROOT_URLCONF = 'help_tokens.urls'
